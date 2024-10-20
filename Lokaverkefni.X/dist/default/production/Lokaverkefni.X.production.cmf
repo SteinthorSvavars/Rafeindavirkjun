@@ -1,0 +1,1002 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\Lokaverkefni.X.production.o
+cinit CODE 0 7DB 7DB 25 2 1
+text1 CODE 0 B46 B46 5C 2 1
+text2 CODE 0 AB2 AB2 13 2 1
+text3 CODE 0 CBA CBA 150 2 1
+text4 CODE 0 B0D B0D 39 2 1
+text5 CODE 0 35C 35C 47F 2 1
+text6 CODE 0 AC5 AC5 1B 2 1
+text7 CODE 0 4E 4E 30E 2 1
+text8 CODE 0 14 14 3A 2 1
+text9 CODE 0 8 8 C 2 1
+text10 CODE 0 AA7 AA7 B 2 1
+text11 CODE 0 AE0 AE0 2D 2 1
+text12 CODE 0 E0A E0A 1F6 2 1
+maintext CODE 0 BA2 BA2 118 2 1
+cstackCOMMON COMMON 1 70 70 D 1 1
+cstackBANK0 BANK0 1 4C 4C C 1 1
+bssBANK0 BANK0 1 20 20 2C 1 1
+stringtext STRCODE 0 1000 1000 1A9 2 256
+idataBANK0 CODE 0 4 4 4 2 1
+strings STRING 0 800 800 12 2 1
+dataBANK0 BANK0 1 58 58 4 1 1
+clrtext CODE 0 A9F A9F 8 2 1
+config CONFIG 4 2007 2007 2 2 1
+$C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+end_init CODE 0 0 0 3 2 1
+config CONFIG 4 2007 2007 2 2 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 5C-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 5C-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 3-3 2
+CONST 812-A9E 2
+CONST 11A9-1FFF 2
+ENTRY 3-3 2
+ENTRY 812-A9E 2
+ENTRY 11A9-1FFF 2
+IDLOC 2000-2003 2
+CODE 3-3 2
+CODE 812-A9E 2
+CODE 11A9-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+COMMON 7D-7D 1
+EEDATA 2100-21FF 2
+STRCODE 3-3 2
+STRCODE 812-A9E 2
+STRCODE 11A9-1FFF 2
+STRING 3-3 2
+STRING 812-A9E 2
+STRING 11A9-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Lokaverkefni.X.production.o
+7DB cinit CODE >1147:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7DB cinit CODE >1150:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7DB cinit CODE >1239:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7E0 cinit CODE >1240:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7E1 cinit CODE >1241:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7E6 cinit CODE >1242:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7E7 cinit CODE >1243:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7EC cinit CODE >1244:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7ED cinit CODE >1245:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7F2 cinit CODE >1246:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7F3 cinit CODE >1265:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7F4 cinit CODE >1266:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7F5 cinit CODE >1267:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7F6 cinit CODE >1268:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7F7 cinit CODE >1269:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7FC cinit CODE >1275:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7FC cinit CODE >1277:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+7FD cinit CODE >1278:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+E0A text12 CODE >111:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E0A text12 CODE >113:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E0D text12 CODE >114:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E11 text12 CODE >116:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E13 text12 CODE >117:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E15 text12 CODE >118:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E1E text12 CODE >119:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E27 text12 CODE >120:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E44 text12 CODE >122:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E4A text12 CODE >122:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E4F text12 CODE >123:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E55 text12 CODE >123:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E5A text12 CODE >124:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E60 text12 CODE >124:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E65 text12 CODE >125:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E6B text12 CODE >125:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E70 text12 CODE >126:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E72 text12 CODE >126:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E77 text12 CODE >126:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E7A text12 CODE >126:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E7D text12 CODE >126:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E80 text12 CODE >126:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E83 text12 CODE >128:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E8C text12 CODE >129:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E90 text12 CODE >130:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E99 text12 CODE >131:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EA2 text12 CODE >132:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EBF text12 CODE >134:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EC5 text12 CODE >134:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+ECA text12 CODE >135:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+ED0 text12 CODE >135:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+ED5 text12 CODE >136:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EDB text12 CODE >136:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EE0 text12 CODE >137:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EE4 text12 CODE >137:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EE9 text12 CODE >138:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EEB text12 CODE >138:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EF0 text12 CODE >138:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EF3 text12 CODE >138:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EF6 text12 CODE >138:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EF9 text12 CODE >138:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EFC text12 CODE >140:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F05 text12 CODE >141:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F09 text12 CODE >142:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F12 text12 CODE >143:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F1B text12 CODE >144:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F38 text12 CODE >146:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F3E text12 CODE >146:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F43 text12 CODE >147:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F49 text12 CODE >147:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F4E text12 CODE >148:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F54 text12 CODE >148:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F59 text12 CODE >149:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F5F text12 CODE >149:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F64 text12 CODE >150:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F66 text12 CODE >150:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F6B text12 CODE >150:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F6E text12 CODE >150:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F71 text12 CODE >150:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F74 text12 CODE >150:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F77 text12 CODE >152:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F80 text12 CODE >153:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F84 text12 CODE >154:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F8D text12 CODE >155:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F96 text12 CODE >156:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FB3 text12 CODE >158:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FB9 text12 CODE >158:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FBE text12 CODE >159:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FC4 text12 CODE >159:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FC9 text12 CODE >160:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FCF text12 CODE >160:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FD4 text12 CODE >161:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FDA text12 CODE >161:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FDF text12 CODE >162:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FE1 text12 CODE >162:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FE6 text12 CODE >162:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FE9 text12 CODE >162:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FEC text12 CODE >162:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FEF text12 CODE >162:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FF2 text12 CODE >164:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FFB text12 CODE >166:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FFF text12 CODE >169:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+AE0 text11 CODE >46:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AE1 text11 CODE >48:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AE6 text11 CODE >49:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AE9 text11 CODE >49:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AEC text11 CODE >49:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AF7 text11 CODE >51:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AF9 text11 CODE >52:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AFD text11 CODE >54:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B06 text11 CODE >56:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B08 text11 CODE >57:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B0C text11 CODE >58:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AA7 text10 CODE >79:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AA8 text10 CODE >81:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AAB text10 CODE >82:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AB1 text10 CODE >83:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+8 text9 CODE >98:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+9 text9 CODE >100:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+C text9 CODE >101:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+13 text9 CODE >102:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+14 text8 CODE >69:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+15 text8 CODE >71:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+18 text8 CODE >71:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+1B text8 CODE >71:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+25 text8 CODE >73:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+28 text8 CODE >74:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+29 text8 CODE >75:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+39 text8 CODE >75:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+3D text8 CODE >74:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+49 text8 CODE >74:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+4D text8 CODE >76:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+4E text7 CODE >171:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4E text7 CODE >173:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5B text7 CODE >174:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+61 text7 CODE >175:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6D text7 CODE >176:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6E text7 CODE >177:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7A text7 CODE >178:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+86 text7 CODE >179:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+91 text7 CODE >180:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+96 text7 CODE >180:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+9A text7 CODE >180:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+A5 text7 CODE >180:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+A9 text7 CODE >180:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+AD text7 CODE >181:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B3 text7 CODE >182:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C0 text7 CODE >184:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C7 text7 CODE >184:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CB text7 CODE >184:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D6 text7 CODE >184:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DA text7 CODE >184:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DE text7 CODE >185:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E4 text7 CODE >186:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EC text7 CODE >176:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+EF text7 CODE >176:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+F6 text7 CODE >189:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+FD text7 CODE >190:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+105 text7 CODE >191:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+10B text7 CODE >192:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+118 text7 CODE >193:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+124 text7 CODE >194:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+125 text7 CODE >195:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+131 text7 CODE >196:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+13D text7 CODE >197:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+148 text7 CODE >198:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+14D text7 CODE >198:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+151 text7 CODE >198:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+15C text7 CODE >198:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+160 text7 CODE >198:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+164 text7 CODE >199:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+16A text7 CODE >200:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+177 text7 CODE >202:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+17E text7 CODE >202:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+182 text7 CODE >202:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+18D text7 CODE >202:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+191 text7 CODE >202:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+195 text7 CODE >203:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+19B text7 CODE >204:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1A3 text7 CODE >194:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1A6 text7 CODE >194:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1AD text7 CODE >207:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1B4 text7 CODE >208:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1BC text7 CODE >209:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1C2 text7 CODE >210:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1CF text7 CODE >211:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1DB text7 CODE >212:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1DC text7 CODE >213:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1E8 text7 CODE >214:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1F4 text7 CODE >215:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+1FF text7 CODE >216:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+204 text7 CODE >216:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+208 text7 CODE >216:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+213 text7 CODE >216:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+217 text7 CODE >216:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+21B text7 CODE >217:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+221 text7 CODE >218:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+22E text7 CODE >220:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+235 text7 CODE >220:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+239 text7 CODE >220:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+244 text7 CODE >220:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+248 text7 CODE >220:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+24C text7 CODE >221:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+252 text7 CODE >222:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+25A text7 CODE >212:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+25D text7 CODE >212:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+264 text7 CODE >225:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+26B text7 CODE >226:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+273 text7 CODE >227:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+279 text7 CODE >228:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+286 text7 CODE >229:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+292 text7 CODE >230:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+293 text7 CODE >231:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+29F text7 CODE >232:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2AB text7 CODE >233:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2B6 text7 CODE >234:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2BB text7 CODE >234:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2BF text7 CODE >234:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2CA text7 CODE >234:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2CE text7 CODE >234:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2D2 text7 CODE >235:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2D8 text7 CODE >236:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2E5 text7 CODE >238:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2EC text7 CODE >238:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2F0 text7 CODE >238:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2FB text7 CODE >238:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+2FF text7 CODE >238:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+303 text7 CODE >239:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+309 text7 CODE >240:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+311 text7 CODE >230:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+314 text7 CODE >230:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+31B text7 CODE >243:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+322 text7 CODE >244:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+32A text7 CODE >245:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+32A text7 CODE >246:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+337 text7 CODE >247:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+343 text7 CODE >248:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+34F text7 CODE >249:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+35B text7 CODE >250:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+AC5 text6 CODE >85:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AC6 text6 CODE >86:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AC9 text6 CODE >86:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+ACC text6 CODE >86:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AD6 text6 CODE >88:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AD9 text6 CODE >89:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+ADF text6 CODE >90:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+35C text5 CODE >252:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+35C text5 CODE >254:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+364 text5 CODE >256:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+366 text5 CODE >257:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+368 text5 CODE >258:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+36C text5 CODE >259:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+371 text5 CODE >261:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+380 text5 CODE >262:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+386 text5 CODE >263:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+392 text5 CODE >264:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+39E text5 CODE >265:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+39E text5 CODE >266:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3AA text5 CODE >267:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3B0 text5 CODE >268:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3BC text5 CODE >271:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3BC text5 CODE >273:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3C7 text5 CODE >274:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3D3 text5 CODE >275:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3DF text5 CODE >276:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3E2 text5 CODE >276:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3E9 text5 CODE >277:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3EF text5 CODE >278:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3F1 text5 CODE >279:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3F2 text5 CODE >280:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3F9 text5 CODE >281:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3F9 text5 CODE >282:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+3FD text5 CODE >283:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+409 text5 CODE >284:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+415 text5 CODE >285:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+415 text5 CODE >286:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+421 text5 CODE >287:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+427 text5 CODE >288:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+433 text5 CODE >289:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+442 text5 CODE >291:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+445 text5 CODE >292:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+446 text5 CODE >293:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+452 text5 CODE >294:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+45E text5 CODE >295:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+46A text5 CODE >296:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+46E text5 CODE >297:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+47D text5 CODE >298:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+489 text5 CODE >300:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+491 text5 CODE >301:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+493 text5 CODE >301:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+497 text5 CODE >303:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+49B text5 CODE >304:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+49F text5 CODE >305:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4A1 text5 CODE >305:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4A5 text5 CODE >306:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4A7 text5 CODE >306:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4AB text5 CODE >307:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4B6 text5 CODE >307:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4BA text5 CODE >307:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4BE text5 CODE >308:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4C4 text5 CODE >309:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4C6 text5 CODE >309:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4CA text5 CODE >310:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4CC text5 CODE >311:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4CF text5 CODE >314:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4D8 text5 CODE >314:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4DC text5 CODE >314:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4E0 text5 CODE >315:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4E4 text5 CODE >316:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4E6 text5 CODE >317:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4E8 text5 CODE >319:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4EE text5 CODE >320:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4F2 text5 CODE >321:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4F4 text5 CODE >321:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4F8 text5 CODE >322:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4FA text5 CODE >322:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+4FE text5 CODE >323:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+509 text5 CODE >323:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+50D text5 CODE >323:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+511 text5 CODE >324:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+517 text5 CODE >325:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+519 text5 CODE >325:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+51D text5 CODE >326:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+51F text5 CODE >327:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+522 text5 CODE >330:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+52B text5 CODE >330:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+52F text5 CODE >330:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+533 text5 CODE >331:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+537 text5 CODE >332:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+539 text5 CODE >333:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+53B text5 CODE >335:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+541 text5 CODE >336:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+542 text5 CODE >338:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+548 text5 CODE >339:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+54A text5 CODE >339:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+54E text5 CODE >341:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+552 text5 CODE >342:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+556 text5 CODE >343:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+558 text5 CODE >343:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+55C text5 CODE >344:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+55E text5 CODE >344:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+562 text5 CODE >345:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+56D text5 CODE >345:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+571 text5 CODE >345:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+575 text5 CODE >346:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+57B text5 CODE >347:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+57D text5 CODE >347:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+581 text5 CODE >348:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+583 text5 CODE >349:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+586 text5 CODE >352:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+58F text5 CODE >352:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+593 text5 CODE >352:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+597 text5 CODE >353:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+59B text5 CODE >354:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+59D text5 CODE >355:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+59F text5 CODE >357:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5A5 text5 CODE >358:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5A9 text5 CODE >359:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5AB text5 CODE >359:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5AF text5 CODE >360:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5B1 text5 CODE >360:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5B5 text5 CODE >361:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5C0 text5 CODE >361:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5C4 text5 CODE >361:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5C8 text5 CODE >362:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5CE text5 CODE >363:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5D0 text5 CODE >363:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5D4 text5 CODE >364:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5D6 text5 CODE >365:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5D9 text5 CODE >368:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5E2 text5 CODE >368:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5E6 text5 CODE >368:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5EA text5 CODE >369:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5EE text5 CODE >370:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5F0 text5 CODE >371:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5F2 text5 CODE >373:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5F9 text5 CODE >373:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+5FD text5 CODE >373:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+608 text5 CODE >373:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+60C text5 CODE >373:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+610 text5 CODE >374:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+616 text5 CODE >376:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+61E text5 CODE >377:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+629 text5 CODE >378:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+635 text5 CODE >379:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+641 text5 CODE >380:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+649 text5 CODE >381:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+64D text5 CODE >382:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+64E text5 CODE >383:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+655 text5 CODE >384:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+659 text5 CODE >385:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+65A text5 CODE >386:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+661 text5 CODE >387:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+665 text5 CODE >388:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+666 text5 CODE >389:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+66D text5 CODE >390:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+672 text5 CODE >391:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+672 text5 CODE >392:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+67D text5 CODE >394:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+685 text5 CODE >395:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+685 text5 CODE >396:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+686 text5 CODE >397:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+68A text5 CODE >398:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+68E text5 CODE >399:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+68F text5 CODE >400:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+69E text5 CODE >402:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6A4 text5 CODE >403:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6A4 text5 CODE >404:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6A5 text5 CODE >405:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6A9 text5 CODE >406:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6AA text5 CODE >407:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6B9 text5 CODE >409:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6BF text5 CODE >410:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6BF text5 CODE >411:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6C0 text5 CODE >412:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6C4 text5 CODE >413:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6C5 text5 CODE >414:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6D4 text5 CODE >415:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6D8 text5 CODE >416:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6DA text5 CODE >417:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6DC text5 CODE >418:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6DE text5 CODE >419:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6EB text5 CODE >423:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6F2 text5 CODE >424:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6F2 text5 CODE >425:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6F3 text5 CODE >426:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6F7 text5 CODE >428:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6FB text5 CODE >429:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+6FC text5 CODE >430:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+70B text5 CODE >432:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+711 text5 CODE >433:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+711 text5 CODE >434:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+712 text5 CODE >435:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+716 text5 CODE >436:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+717 text5 CODE >437:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+726 text5 CODE >439:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+72C text5 CODE >440:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+72C text5 CODE >441:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+72D text5 CODE >442:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+731 text5 CODE >443:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+732 text5 CODE >444:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+741 text5 CODE >445:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+745 text5 CODE >446:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+747 text5 CODE >447:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+749 text5 CODE >448:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+74B text5 CODE >449:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+757 text5 CODE >454:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+761 text5 CODE >455:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+761 text5 CODE >456:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+762 text5 CODE >455:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+762 text5 CODE >457:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+766 text5 CODE >458:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+76A text5 CODE >459:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+76B text5 CODE >460:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+777 text5 CODE >461:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+783 text5 CODE >463:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+783 text5 CODE >464:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+78F text5 CODE >465:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+79B text5 CODE >466:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7A1 text5 CODE >467:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7B0 text5 CODE >468:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7B4 text5 CODE >469:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7B6 text5 CODE >470:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7B8 text5 CODE >471:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7BA text5 CODE >472:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7C6 text5 CODE >473:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7D2 text5 CODE >476:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+7DA text5 CODE >477:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B0D text4 CODE >87:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B0D text4 CODE >89:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B19 text4 CODE >90:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B1F text4 CODE >91:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B1F text4 CODE >92:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B20 text4 CODE >93:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B24 text4 CODE >94:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B25 text4 CODE >95:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B25 text4 CODE >96:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B29 text4 CODE >97:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B29 text4 CODE >98:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B2A text4 CODE >99:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B2E text4 CODE >100:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B2F text4 CODE >101:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B2F text4 CODE >102:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B33 text4 CODE >103:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B33 text4 CODE >104:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B34 text4 CODE >105:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B38 text4 CODE >106:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B39 text4 CODE >108:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+B45 text4 CODE >109:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CBA text3 CODE >479:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CBA text3 CODE >481:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CC0 text3 CODE >484:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CCB text3 CODE >485:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CCC text3 CODE >485:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CD3 text3 CODE >486:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CDF text3 CODE >487:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CEB text3 CODE >488:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CEE text3 CODE >489:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CEF text3 CODE >490:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CF5 text3 CODE >491:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D01 text3 CODE >492:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D0D text3 CODE >493:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D10 text3 CODE >494:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D11 text3 CODE >495:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D18 text3 CODE >496:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D24 text3 CODE >497:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D30 text3 CODE >498:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D33 text3 CODE >499:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D34 text3 CODE >500:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D3B text3 CODE >501:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D47 text3 CODE >502:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D53 text3 CODE >503:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D56 text3 CODE >504:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D57 text3 CODE >505:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D5E text3 CODE >506:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D6A text3 CODE >507:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D76 text3 CODE >508:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D79 text3 CODE >509:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D7A text3 CODE >510:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D81 text3 CODE >511:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D8D text3 CODE >512:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D99 text3 CODE >513:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D9C text3 CODE >514:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+D9D text3 CODE >515:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DA4 text3 CODE >516:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DB0 text3 CODE >517:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DBC text3 CODE >518:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DBF text3 CODE >519:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DC0 text3 CODE >520:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DC6 text3 CODE >521:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DD2 text3 CODE >522:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DDE text3 CODE >523:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DEB text3 CODE >524:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DEF text3 CODE >525:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+DF4 text3 CODE >526:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E01 text3 CODE >527:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E01 text3 CODE >528:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+E09 text3 CODE >529:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+AB2 text2 CODE >61:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AB2 text2 CODE >63:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AB5 text2 CODE >64:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+ABB text2 CODE >65:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+AC4 text2 CODE >66:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B46 text1 CODE >105:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B46 text1 CODE >108:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B49 text1 CODE >109:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B4A text1 CODE >110:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B4D text1 CODE >111:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B4E text1 CODE >112:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B4F text1 CODE >114:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B58 text1 CODE >115:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B5E text1 CODE >117:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B60 text1 CODE >118:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B69 text1 CODE >119:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B6D text1 CODE >120:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B71 text1 CODE >121:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B75 text1 CODE >122:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B79 text1 CODE >124:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B7F text1 CODE >125:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B81 text1 CODE >126:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B8A text1 CODE >128:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B90 text1 CODE >129:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B95 text1 CODE >130:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+B9B text1 CODE >131:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+BA1 text1 CODE >132:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+BA2 maintext CODE >531:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BA2 maintext CODE >534:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BA6 maintext CODE >535:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BA9 maintext CODE >536:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BAA maintext CODE >537:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BAF maintext CODE >538:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BB2 maintext CODE >539:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BB3 maintext CODE >541:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BB4 maintext CODE >542:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BB5 maintext CODE >543:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BB8 maintext CODE >544:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BB9 maintext CODE >546:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BBA maintext CODE >547:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BBB maintext CODE >548:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BBC maintext CODE >550:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BBF maintext CODE >551:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BC0 maintext CODE >552:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BC1 maintext CODE >553:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BC2 maintext CODE >554:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BC3 maintext CODE >556:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BC7 maintext CODE >557:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BC9 maintext CODE >558:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BCA maintext CODE >559:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BCC maintext CODE >560:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BCE maintext CODE >562:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BD3 maintext CODE >564:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BD8 maintext CODE >568:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BDB maintext CODE >569:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BE6 maintext CODE >570:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BE7 maintext CODE >570:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BEE maintext CODE >571:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+BFA maintext CODE >572:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C06 maintext CODE >573:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C09 maintext CODE >574:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C17 maintext CODE >576:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C20 maintext CODE >577:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C2C maintext CODE >578:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C38 maintext CODE >579:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C3D maintext CODE >580:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C4B maintext CODE >581:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C4C maintext CODE >582:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C53 maintext CODE >583:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C5F maintext CODE >584:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C6B maintext CODE >585:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C71 maintext CODE >588:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C74 maintext CODE >588:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C90 maintext CODE >589:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+C9C maintext CODE >590:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+CA8 maintext CODE >591:D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+A9F clrtext CODE >1252:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+A9F clrtext CODE >1253:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+AA0 clrtext CODE >1254:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+AA0 clrtext CODE >1255:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+AA1 clrtext CODE >1256:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+AA2 clrtext CODE >1257:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+AA3 clrtext CODE >1258:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+AA4 clrtext CODE >1259:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+AA5 clrtext CODE >1260:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+AA6 clrtext CODE >1261:C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_A 6B8 0 CODE 0 text5 dist/default/production\Lokaverkefni.X.production.o
+_B 1974 0 CODE 0 text3 dist/default/production\Lokaverkefni.X.production.o
+___latbits 2 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+__LdataBANK0 0 0 ABS 0 dataBANK0 -
+__Hspace_0 11A9 0 ABS 0 - -
+__Hspace_1 7D 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 4010 0 ABS 0 - -
+__HidataBANK0 0 0 ABS 0 idataBANK0 -
+_CM1CON0 107 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_CM2CON0 108 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_KeyPad 2000 0 CODE 0 text12 dist/default/production\Lokaverkefni.X.production.o
+__L__absolute__ 0 0 ABS 0 __absolute__ -
+__Lstringtext 0 0 ABS 0 stringtext -
+A@num 51 0 BANK0 1 cstackBANK0 dist/default/production\Lokaverkefni.X.production.o
+B@num 4C 0 BANK0 1 cstackBANK0 dist/default/production\Lokaverkefni.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+_PEIE 5E 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RBIE 5B 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RBIF 58 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RCIE 465 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+_main 1744 0 CODE 0 maintext dist/default/production\Lokaverkefni.X.production.o
+_scan 42 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+start 0 0 CODE 0 init C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+lcd_chr@line 77 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+lcd_out@line 78 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+lcd_chr_cp@c 73 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+__end_of_lcd_chr_cp 1564 0 CODE 0 text10 dist/default/production\Lokaverkefni.X.production.o
+__LidataBANK0 0 0 ABS 0 idataBANK0 -
+__Hpowerup 0 0 CODE 0 powerup -
+__end_of_lcd_clear 158A 0 CODE 0 text2 dist/default/production\Lokaverkefni.X.production.o
+__end_of_lcd_write 161A 0 CODE 0 text11 dist/default/production\Lokaverkefni.X.production.o
+intlevel0 0 0 ENTRY 0 functab C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+lcd_chr@character 74 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+__end_of_A FB6 0 CODE 0 text5 dist/default/production\Lokaverkefni.X.production.o
+__end_of_B 1C14 0 CODE 0 text3 dist/default/production\Lokaverkefni.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext -
+_lcd_clear 1564 0 CODE 0 text2 dist/default/production\Lokaverkefni.X.production.o
+_lcd_write 15C0 0 CODE 0 text11 dist/default/production\Lokaverkefni.X.production.o
+_ANSELH 189 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+__end_of_lcd_chr 15C0 0 CODE 0 text6 dist/default/production\Lokaverkefni.X.production.o
+__end_of_lcd_out 9C 0 CODE 0 text8 dist/default/production\Lokaverkefni.X.production.o
+main@num 56 0 BANK0 1 cstackBANK0 dist/default/production\Lokaverkefni.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+_INTCON B 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+___stacklo 0 0 ABS 0 - C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+_KeyPad 1C14 0 CODE 0 text12 dist/default/production\Lokaverkefni.X.production.o
+_flickerA1 3E 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+_flickerA2 3A 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+start_initialization FB6 0 CODE 0 cinit dist/default/production\Lokaverkefni.X.production.o
+_OSCCON 8F 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+clear_ram0 153E 0 CODE 0 clrtext dist/default/production\Lokaverkefni.X.production.o
+__pcstackBANK0 4C 0 BANK0 1 cstackBANK0 dist/default/production\Lokaverkefni.X.production.o
+_DebounceA 4A 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+_DebounceB 48 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+lcd_out@character 74 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hstack 0 0 STACK 2 stack -
+__stringbase 1024 0 STRING 0 strings dist/default/production\Lokaverkefni.X.production.o
+lcd_chr@c 75 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+lcd_out@s 75 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+__Hmaintext 0 0 ABS 0 maintext -
+_kubbur1 36 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+_kubbur2 34 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+_kubbur3 32 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+_kubbur4 30 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4012 0 CONFIG 4 config -
+_ManualRun 26 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit FB6 0 CODE 0 cinit -
+__Lstack 0 0 STACK 2 stack -
+_INTCONbits B 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_RA0 28 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RA1 29 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RA2 2A 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RA3 2B 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RA4 2C 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RA5 2D 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RA6 2E 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RA7 2F 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RB4 34 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RB5 35 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RB6 36 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RB7 37 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RC0 38 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RC1 39 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RC2 3A 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RC3 3B 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RC4 3C 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RC5 3D 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_RE0 48 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_Val 9C 0 CODE 0 text7 dist/default/production\Lokaverkefni.X.production.o
+__S0 11A9 0 ABS 0 - -
+__S1 7D 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+_run 2E 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+__end_of_Val 6B8 0 CODE 0 text7 dist/default/production\Lokaverkefni.X.production.o
+_lcd_goto 10 0 CODE 0 text9 dist/default/production\Lokaverkefni.X.production.o
+_lcd_init 168C 0 CODE 0 text1 dist/default/production\Lokaverkefni.X.production.o
+__Lintentry 0 0 CODE 0 intentry -
+__stringtab 1000 0 STRING 0 strings dist/default/production\Lokaverkefni.X.production.o
+_lcd_chr 158A 0 CODE 0 text6 dist/default/production\Lokaverkefni.X.production.o
+_lcd_out 28 0 CODE 0 text8 dist/default/production\Lokaverkefni.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\stein\AppData\Local\Temp\xcAs2g8.\driver_tmp_12.o
+KeyPad@tala 76 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+__pdataBANK0 58 0 BANK0 1 dataBANK0 dist/default/production\Lokaverkefni.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__end_of_lcd_goto 28 0 CODE 0 text9 dist/default/production\Lokaverkefni.X.production.o
+__end_of_lcd_init 1744 0 CODE 0 text1 dist/default/production\Lokaverkefni.X.production.o
+__ptext10 154E 0 CODE 0 text10 dist/default/production\Lokaverkefni.X.production.o
+__ptext11 15C0 0 CODE 0 text11 dist/default/production\Lokaverkefni.X.production.o
+__ptext12 1C14 0 CODE 0 text12 dist/default/production\Lokaverkefni.X.production.o
+__pmaintext 1744 0 CODE 0 maintext dist/default/production\Lokaverkefni.X.production.o
+_pallur 2C 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+_interrupt_ms 46 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+_segull 44 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+__end_of__stringtab 1024 0 STRING 0 strings dist/default/production\Lokaverkefni.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__Lend_init 0 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\Lokaverkefni.X.production.o
+__Hintentry 0 0 CODE 0 intentry -
+__Lstrings 0 0 ABS 0 strings -
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+_flicker1 40 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+_flicker2 3C 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+lcd_write@c 72 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+__ptext1 168C 0 CODE 0 text1 dist/default/production\Lokaverkefni.X.production.o
+__ptext2 1564 0 CODE 0 text2 dist/default/production\Lokaverkefni.X.production.o
+__ptext3 1974 0 CODE 0 text3 dist/default/production\Lokaverkefni.X.production.o
+__ptext4 161A 0 CODE 0 text4 dist/default/production\Lokaverkefni.X.production.o
+__ptext5 6B8 0 CODE 0 text5 dist/default/production\Lokaverkefni.X.production.o
+__ptext6 158A 0 CODE 0 text6 dist/default/production\Lokaverkefni.X.production.o
+__ptext7 9C 0 CODE 0 text7 dist/default/production\Lokaverkefni.X.production.o
+__ptext8 28 0 CODE 0 text8 dist/default/production\Lokaverkefni.X.production.o
+__ptext9 10 0 CODE 0 text9 dist/default/production\Lokaverkefni.X.production.o
+Val@num 4C 0 BANK0 1 cstackBANK0 dist/default/production\Lokaverkefni.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+__pstringtext 2000 0 STRCODE 0 stringtext dist/default/production\Lokaverkefni.X.production.o
+__H__absolute__ 0 0 ABS 0 __absolute__ -
+KeyPad@input 78 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+KeyPad@press 74 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\Lokaverkefni.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__pidataBANK0 8 0 CODE 0 idataBANK0 dist/default/production\Lokaverkefni.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext -
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+__Hend_init 6 0 CODE 0 end_init -
+lcd_goto@pos 73 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+?_KeyPad 70 0 COMMON 1 cstackCOMMON dist/default/production\Lokaverkefni.X.production.o
+__end_of_main 1974 0 CODE 0 maintext dist/default/production\Lokaverkefni.X.production.o
+_ANSEL 188 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_IOCB6 4B6 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_IOCB7 4B7 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_PORTA 5 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_PORTB 6 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_PORTC 7 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_PORTD 8 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_PORTE 9 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_TRISA 85 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_TRISB 86 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_TRISC 87 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_TRISD 88 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+_TRISE 89 0 ABS 0 - dist/default/production\Lokaverkefni.X.production.o
+__end_of_reset 168C 0 CODE 0 text4 dist/default/production\Lokaverkefni.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_reset 161A 0 CODE 0 text4 dist/default/production\Lokaverkefni.X.production.o
+__HdataBANK0 0 0 ABS 0 dataBANK0 -
+_lcd_chr_cp 154E 0 CODE 0 text10 dist/default/production\Lokaverkefni.X.production.o
+__initialization FB6 0 CODE 0 cinit dist/default/production\Lokaverkefni.X.production.o
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+__Hstringtext 0 0 ABS 0 stringtext -
+__pstrings 1000 0 STRING 0 strings dist/default/production\Lokaverkefni.X.production.o
+_teljari 38 0 BANK0 1 bssBANK0 dist/default/production\Lokaverkefni.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7DB FB6 25 2
+text1 0 B46 168C 5C 2
+text2 0 AB2 1564 13 2
+text3 0 CBA 1974 150 2
+text4 0 B0D 161A 39 2
+text5 0 35C 6B8 47F 2
+text6 0 AC5 158A 1B 2
+text7 0 4E 9C 30E 2
+text8 0 14 28 3A 2
+text9 0 8 10 C 2
+text10 0 AA7 154E B 2
+text11 0 AE0 15C0 2D 2
+text12 0 E0A 1C14 1F6 2
+maintext 0 BA2 1744 118 2
+cstackCOMMON 1 70 70 D 1
+reset_vec 0 0 0 3 2
+bssBANK0 1 20 20 3C 1
+stringtext 0 1000 2000 1A9 2
+idataBANK0 0 4 8 4 2
+strings 0 800 1000 12 2
+clrtext 0 A9F 153E 8 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES

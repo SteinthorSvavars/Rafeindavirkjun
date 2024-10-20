@@ -1,0 +1,264 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"46 D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+"61
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+"69
+[v _lcd_out lcd_out `(v  1 e 1 0 ]
+"79
+[v _lcd_chr_cp lcd_chr_cp `(v  1 e 1 0 ]
+"85
+[v _lcd_chr lcd_chr `(v  1 e 1 0 ]
+"98
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+"105
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"87 D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+[v _reset reset `(i  1 e 2 0 ]
+"111
+[v _KeyPad KeyPad `(i  1 e 2 0 ]
+"171
+[v _Val Val `(v  1 e 1 0 ]
+"252
+[v _A A `(v  1 e 1 0 ]
+"479
+[v _B B `(v  1 e 1 0 ]
+"531
+[v _main main `(v  1 e 1 0 ]
+"166 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[v _PORTA PORTA `VEuc  1 e 1 @5 ]
+"228
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"414
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"459
+[v _INTCON INTCON `VEuc  1 e 1 @11 ]
+[s S67 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"482
+[s S76 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 TMR0IE 1 0 :1:5 
+]
+[u S81 . 1 `S67 1 . 1 0 `S76 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES81  1 e 1 @11 ]
+"1416
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1664
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"1862
+[v _OSCCON OSCCON `VEuc  1 e 1 @143 ]
+"3064
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @263 ]
+"3129
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @264 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3954
+[v _IOCB6 IOCB6 `VEb  1 e 0 @1206 ]
+"3957
+[v _IOCB7 IOCB7 `VEb  1 e 0 @1207 ]
+"4044
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"4083
+[v _RA0 RA0 `VEb  1 e 0 @40 ]
+"4086
+[v _RA1 RA1 `VEb  1 e 0 @41 ]
+"4089
+[v _RA2 RA2 `VEb  1 e 0 @42 ]
+"4092
+[v _RA3 RA3 `VEb  1 e 0 @43 ]
+"4095
+[v _RA4 RA4 `VEb  1 e 0 @44 ]
+"4098
+[v _RA5 RA5 `VEb  1 e 0 @45 ]
+"4101
+[v _RA6 RA6 `VEb  1 e 0 @46 ]
+"4104
+[v _RA7 RA7 `VEb  1 e 0 @47 ]
+"4119
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"4122
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"4125
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"4128
+[v _RB7 RB7 `VEb  1 e 0 @55 ]
+"4131
+[v _RBIE RBIE `VEb  1 e 0 @91 ]
+"4134
+[v _RBIF RBIF `VEb  1 e 0 @88 ]
+"4137
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"4140
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"4143
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"4146
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"4149
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"4152
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"4176
+[v _RCIE RCIE `VEb  1 e 0 @1125 ]
+"4209
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"70 D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+[v _DebounceA DebounceA `i  1 e 2 0 ]
+[v _DebounceB DebounceB `i  1 e 2 0 ]
+[v _interrupt_ms interrupt_ms `i  1 e 2 0 ]
+"71
+[v _segull segull `i  1 e 2 0 ]
+[v _scan scan `i  1 e 2 0 ]
+"72
+[v _flicker1 flicker1 `i  1 e 2 0 ]
+[v _flickerA1 flickerA1 `i  1 e 2 0 ]
+[v _flicker2 flicker2 `i  1 e 2 0 ]
+[v _flickerA2 flickerA2 `i  1 e 2 0 ]
+"76
+[v _kubbur1 kubbur1 `i  1 e 2 0 ]
+[v _kubbur2 kubbur2 `i  1 e 2 0 ]
+[v _kubbur3 kubbur3 `i  1 e 2 0 ]
+[v _kubbur4 kubbur4 `i  1 e 2 0 ]
+"79
+[v _run run `i  1 e 2 0 ]
+[v _pallur pallur `i  1 e 2 0 ]
+"82
+[v _ManualRun ManualRun `i  1 e 2 0 ]
+"85
+[v _teljari teljari `i  1 e 2 0 ]
+"531
+[v _main main `(v  1 e 1 0 ]
+{
+"567
+[v main@num num `i  1 a 2 10 ]
+"594
+} 0
+"105 D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+[v _lcd_init lcd_init `(v  1 e 1 0 ]
+{
+"132
+} 0
+"61
+[v _lcd_clear lcd_clear `(v  1 e 1 0 ]
+{
+"66
+} 0
+"479 D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+[v _B B `(v  1 e 1 0 ]
+{
+"483
+[v B@num num `i  1 a 2 0 ]
+"529
+} 0
+"87
+[v _reset reset `(i  1 e 2 0 ]
+{
+"109
+} 0
+"252
+[v _A A `(v  1 e 1 0 ]
+{
+"271
+[v A@num num `i  1 a 2 5 ]
+"477
+} 0
+"85 D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+[v _lcd_chr lcd_chr `(v  1 e 1 0 ]
+{
+[v lcd_chr@line line `uc  1 a 1 wreg ]
+[v lcd_chr@line line `uc  1 a 1 wreg ]
+[v lcd_chr@character character `uc  1 p 1 4 ]
+[v lcd_chr@c c `uc  1 p 1 5 ]
+[v lcd_chr@line line `uc  1 a 1 7 ]
+"90
+} 0
+"171 D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+[v _Val Val `(v  1 e 1 0 ]
+{
+"174
+[v Val@num num `i  1 a 2 0 ]
+"250
+} 0
+"69 D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X/LCD.c
+[v _lcd_out lcd_out `(v  1 e 1 0 ]
+{
+[v lcd_out@line line `uc  1 a 1 wreg ]
+[v lcd_out@line line `uc  1 a 1 wreg ]
+[v lcd_out@character character `uc  1 p 1 4 ]
+[v lcd_out@s s `*.25DCuc  1 p 2 5 ]
+"71
+[v lcd_out@line line `uc  1 a 1 8 ]
+"76
+} 0
+"98
+[v _lcd_goto lcd_goto `(v  1 e 1 0 ]
+{
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+[v lcd_goto@pos pos `uc  1 a 1 wreg ]
+"100
+[v lcd_goto@pos pos `uc  1 a 1 3 ]
+"102
+} 0
+"79
+[v _lcd_chr_cp lcd_chr_cp `(v  1 e 1 0 ]
+{
+[v lcd_chr_cp@c c `uc  1 a 1 wreg ]
+[v lcd_chr_cp@c c `uc  1 a 1 wreg ]
+"81
+[v lcd_chr_cp@c c `uc  1 a 1 3 ]
+"83
+} 0
+"46
+[v _lcd_write lcd_write `(v  1 e 1 0 ]
+{
+[v lcd_write@c c `uc  1 a 1 wreg ]
+[v lcd_write@c c `uc  1 a 1 wreg ]
+"48
+[v lcd_write@c c `uc  1 a 1 2 ]
+"58
+} 0
+"111 D:\Skóli\STTÆ\STTÆ-C\Lokaverkefni.X\Lokaverkefni.c
+[v _KeyPad KeyPad `(i  1 e 2 0 ]
+{
+"115
+[v KeyPad@input input `i  1 a 2 8 ]
+"114
+[v KeyPad@tala tala `i  1 a 2 6 ]
+"116
+[v KeyPad@press press `i  1 a 2 4 ]
+"169
+} 0

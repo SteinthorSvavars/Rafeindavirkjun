@@ -1,0 +1,2611 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F235 `(v ~T0 @X0 1 tf1`ul ]
+"12 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\builtins.h
+[v __delay `JF235 ~T0 @X0 0 e ]
+[p i __delay ]
+"228 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 228: extern volatile unsigned char PORTB __attribute__((address(0x006)));
+[v _PORTB `Vuc ~T0 @X0 0 e@6 ]
+"4122
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4122: extern volatile __bit RB5 __attribute__((address(0x35)));
+[v _RB5 `Vb ~T0 @X0 0 e@53 ]
+"4119
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4119: extern volatile __bit RB4 __attribute__((address(0x34)));
+[v _RB4 `Vb ~T0 @X0 0 e@52 ]
+"20 ./LCD.h
+[; ;./LCD.h: 20: extern void lcd_goto(unsigned char pos);
+[; ;./LCD.h: 20: extern void lcd_goto(unsigned char pos);
+[v _lcd_goto `(v ~T0 @X0 0 ef1`uc ]
+"3387 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3387: extern volatile unsigned char ANSEL __attribute__((address(0x188)));
+[v _ANSEL `Vuc ~T0 @X0 0 e@392 ]
+"3449
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3449: extern volatile unsigned char ANSELH __attribute__((address(0x189)));
+[v _ANSELH `Vuc ~T0 @X0 0 e@393 ]
+"4125
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4125: extern volatile __bit RB6 __attribute__((address(0x36)));
+[v _RB6 `Vb ~T0 @X0 0 e@54 ]
+"4083
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4083: extern volatile __bit RA0 __attribute__((address(0x28)));
+[v _RA0 `Vb ~T0 @X0 0 e@40 ]
+"4137
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4137: extern volatile __bit RC0 __attribute__((address(0x38)));
+[v _RC0 `Vb ~T0 @X0 0 e@56 ]
+"4089
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4089: extern volatile __bit RA2 __attribute__((address(0x2A)));
+[v _RA2 `Vb ~T0 @X0 0 e@42 ]
+"4146
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4146: extern volatile __bit RC3 __attribute__((address(0x3B)));
+[v _RC3 `Vb ~T0 @X0 0 e@59 ]
+"4095
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4095: extern volatile __bit RA4 __attribute__((address(0x2C)));
+[v _RA4 `Vb ~T0 @X0 0 e@44 ]
+"4152
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4152: extern volatile __bit RC5 __attribute__((address(0x3D)));
+[v _RC5 `Vb ~T0 @X0 0 e@61 ]
+"352
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 352: extern volatile unsigned char PORTD __attribute__((address(0x008)));
+[v _PORTD `Vuc ~T0 @X0 0 e@8 ]
+"4104
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4104: extern volatile __bit RA7 __attribute__((address(0x2F)));
+[v _RA7 `Vb ~T0 @X0 0 e@47 ]
+"4140
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4140: extern volatile __bit RC1 __attribute__((address(0x39)));
+[v _RC1 `Vb ~T0 @X0 0 e@57 ]
+"4128
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4128: extern volatile __bit RB7 __attribute__((address(0x37)));
+[v _RB7 `Vb ~T0 @X0 0 e@55 ]
+"4098
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4098: extern volatile __bit RA5 __attribute__((address(0x2D)));
+[v _RA5 `Vb ~T0 @X0 0 e@45 ]
+"4143
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4143: extern volatile __bit RC2 __attribute__((address(0x3A)));
+[v _RC2 `Vb ~T0 @X0 0 e@58 ]
+"4086
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4086: extern volatile __bit RA1 __attribute__((address(0x29)));
+[v _RA1 `Vb ~T0 @X0 0 e@41 ]
+"4101
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4101: extern volatile __bit RA6 __attribute__((address(0x2E)));
+[v _RA6 `Vb ~T0 @X0 0 e@46 ]
+"4149
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4149: extern volatile __bit RC4 __attribute__((address(0x3C)));
+[v _RC4 `Vb ~T0 @X0 0 e@60 ]
+"4092
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4092: extern volatile __bit RA3 __attribute__((address(0x2B)));
+[v _RA3 `Vb ~T0 @X0 0 e@43 ]
+"4209
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4209: extern volatile __bit RE0 __attribute__((address(0x48)));
+[v _RE0 `Vb ~T0 @X0 0 e@72 ]
+"290
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 290: extern volatile unsigned char PORTC __attribute__((address(0x007)));
+[v _PORTC `Vuc ~T0 @X0 0 e@7 ]
+[p mainexit ]
+"1862
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1862: extern volatile unsigned char OSCCON __attribute__((address(0x08F)));
+[v _OSCCON `Vuc ~T0 @X0 0 e@143 ]
+"3064
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3064: extern volatile unsigned char CM1CON0 __attribute__((address(0x107)));
+[v _CM1CON0 `Vuc ~T0 @X0 0 e@263 ]
+"3129
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3129: extern volatile unsigned char CM2CON0 __attribute__((address(0x108)));
+[v _CM2CON0 `Vuc ~T0 @X0 0 e@264 ]
+"459
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 459: extern volatile unsigned char INTCON __attribute__((address(0x00B)));
+[v _INTCON `Vuc ~T0 @X0 0 e@11 ]
+"4134
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4134: extern volatile __bit RBIF __attribute__((address(0x58)));
+[v _RBIF `Vb ~T0 @X0 0 e@88 ]
+"4131
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4131: extern volatile __bit RBIE __attribute__((address(0x5B)));
+[v _RBIE `Vb ~T0 @X0 0 e@91 ]
+"3954
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3954: extern volatile __bit IOCB6 __attribute__((address(0x4B6)));
+[v _IOCB6 `Vb ~T0 @X0 0 e@1206 ]
+"3957
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3957: extern volatile __bit IOCB7 __attribute__((address(0x4B7)));
+[v _IOCB7 `Vb ~T0 @X0 0 e@1207 ]
+"4044
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4044: extern volatile __bit PEIE __attribute__((address(0x5E)));
+[v _PEIE `Vb ~T0 @X0 0 e@94 ]
+"4176
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 4176: extern volatile __bit RCIE __attribute__((address(0x465)));
+[v _RCIE `Vb ~T0 @X0 0 e@1125 ]
+"465
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 465:     struct {
+[s S21 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 :1 `uc 1 ]
+[n S21 . RBIF INTF T0IF RBIE INTE T0IE PEIE GIE ]
+"475
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 475:     struct {
+[s S22 :2 `uc 1 :1 `uc 1 :2 `uc 1 :1 `uc 1 ]
+[n S22 . . TMR0IF . TMR0IE ]
+"464
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 464: typedef union {
+[u S20 `S21 1 `S22 1 ]
+[n S20 . . . ]
+"482
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 482: extern volatile INTCONbits_t INTCONbits __attribute__((address(0x00B)));
+[v _INTCONbits `VS20 ~T0 @X0 0 e@11 ]
+"166
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 166: extern volatile unsigned char PORTA __attribute__((address(0x005)));
+[v _PORTA `Vuc ~T0 @X0 0 e@5 ]
+"414
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 414: extern volatile unsigned char PORTE __attribute__((address(0x009)));
+[v _PORTE `Vuc ~T0 @X0 0 e@9 ]
+"1416
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1416: extern volatile unsigned char TRISA __attribute__((address(0x085)));
+[v _TRISA `Vuc ~T0 @X0 0 e@133 ]
+"1478
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1478: extern volatile unsigned char TRISB __attribute__((address(0x086)));
+[v _TRISB `Vuc ~T0 @X0 0 e@134 ]
+"1540
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1540: extern volatile unsigned char TRISC __attribute__((address(0x087)));
+[v _TRISC `Vuc ~T0 @X0 0 e@135 ]
+"1602
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1602: extern volatile unsigned char TRISD __attribute__((address(0x088)));
+[v _TRISD `Vuc ~T0 @X0 0 e@136 ]
+"1664
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1664: extern volatile unsigned char TRISE __attribute__((address(0x089)));
+[v _TRISE `Vuc ~T0 @X0 0 e@137 ]
+"54 C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 54: __asm("INDF equ 00h");
+[; <" INDF equ 00h ;# ">
+"61
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 61: __asm("TMR0 equ 01h");
+[; <" TMR0 equ 01h ;# ">
+"68
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 68: __asm("PCL equ 02h");
+[; <" PCL equ 02h ;# ">
+"75
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 75: __asm("STATUS equ 03h");
+[; <" STATUS equ 03h ;# ">
+"161
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 161: __asm("FSR equ 04h");
+[; <" FSR equ 04h ;# ">
+"168
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 168: __asm("PORTA equ 05h");
+[; <" PORTA equ 05h ;# ">
+"230
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 230: __asm("PORTB equ 06h");
+[; <" PORTB equ 06h ;# ">
+"292
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 292: __asm("PORTC equ 07h");
+[; <" PORTC equ 07h ;# ">
+"354
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 354: __asm("PORTD equ 08h");
+[; <" PORTD equ 08h ;# ">
+"416
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 416: __asm("PORTE equ 09h");
+[; <" PORTE equ 09h ;# ">
+"454
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 454: __asm("PCLATH equ 0Ah");
+[; <" PCLATH equ 0Ah ;# ">
+"461
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 461: __asm("INTCON equ 0Bh");
+[; <" INTCON equ 0Bh ;# ">
+"539
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 539: __asm("PIR1 equ 0Ch");
+[; <" PIR1 equ 0Ch ;# ">
+"595
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 595: __asm("PIR2 equ 0Dh");
+[; <" PIR2 equ 0Dh ;# ">
+"652
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 652: __asm("TMR1 equ 0Eh");
+[; <" TMR1 equ 0Eh ;# ">
+"659
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 659: __asm("TMR1L equ 0Eh");
+[; <" TMR1L equ 0Eh ;# ">
+"666
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 666: __asm("TMR1H equ 0Fh");
+[; <" TMR1H equ 0Fh ;# ">
+"673
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 673: __asm("T1CON equ 010h");
+[; <" T1CON equ 010h ;# ">
+"767
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 767: __asm("TMR2 equ 011h");
+[; <" TMR2 equ 011h ;# ">
+"774
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 774: __asm("T2CON equ 012h");
+[; <" T2CON equ 012h ;# ">
+"845
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 845: __asm("SSPBUF equ 013h");
+[; <" SSPBUF equ 013h ;# ">
+"852
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 852: __asm("SSPCON equ 014h");
+[; <" SSPCON equ 014h ;# ">
+"922
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 922: __asm("CCPR1 equ 015h");
+[; <" CCPR1 equ 015h ;# ">
+"929
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 929: __asm("CCPR1L equ 015h");
+[; <" CCPR1L equ 015h ;# ">
+"936
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 936: __asm("CCPR1H equ 016h");
+[; <" CCPR1H equ 016h ;# ">
+"943
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 943: __asm("CCP1CON equ 017h");
+[; <" CCP1CON equ 017h ;# ">
+"1040
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1040: __asm("RCSTA equ 018h");
+[; <" RCSTA equ 018h ;# ">
+"1135
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1135: __asm("TXREG equ 019h");
+[; <" TXREG equ 019h ;# ">
+"1142
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1142: __asm("RCREG equ 01Ah");
+[; <" RCREG equ 01Ah ;# ">
+"1149
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1149: __asm("CCPR2 equ 01Bh");
+[; <" CCPR2 equ 01Bh ;# ">
+"1156
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1156: __asm("CCPR2L equ 01Bh");
+[; <" CCPR2L equ 01Bh ;# ">
+"1163
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1163: __asm("CCPR2H equ 01Ch");
+[; <" CCPR2H equ 01Ch ;# ">
+"1170
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1170: __asm("CCP2CON equ 01Dh");
+[; <" CCP2CON equ 01Dh ;# ">
+"1240
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1240: __asm("ADRESH equ 01Eh");
+[; <" ADRESH equ 01Eh ;# ">
+"1247
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1247: __asm("ADCON0 equ 01Fh");
+[; <" ADCON0 equ 01Fh ;# ">
+"1348
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1348: __asm("OPTION_REG equ 081h");
+[; <" OPTION_REG equ 081h ;# ">
+"1418
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1418: __asm("TRISA equ 085h");
+[; <" TRISA equ 085h ;# ">
+"1480
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1480: __asm("TRISB equ 086h");
+[; <" TRISB equ 086h ;# ">
+"1542
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1542: __asm("TRISC equ 087h");
+[; <" TRISC equ 087h ;# ">
+"1604
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1604: __asm("TRISD equ 088h");
+[; <" TRISD equ 088h ;# ">
+"1666
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1666: __asm("TRISE equ 089h");
+[; <" TRISE equ 089h ;# ">
+"1704
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1704: __asm("PIE1 equ 08Ch");
+[; <" PIE1 equ 08Ch ;# ">
+"1760
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1760: __asm("PIE2 equ 08Dh");
+[; <" PIE2 equ 08Dh ;# ">
+"1817
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1817: __asm("PCON equ 08Eh");
+[; <" PCON equ 08Eh ;# ">
+"1864
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1864: __asm("OSCCON equ 08Fh");
+[; <" OSCCON equ 08Fh ;# ">
+"1929
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1929: __asm("OSCTUNE equ 090h");
+[; <" OSCTUNE equ 090h ;# ">
+"1981
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 1981: __asm("SSPCON2 equ 091h");
+[; <" SSPCON2 equ 091h ;# ">
+"2043
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2043: __asm("PR2 equ 092h");
+[; <" PR2 equ 092h ;# ">
+"2050
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2050: __asm("SSPADD equ 093h");
+[; <" SSPADD equ 093h ;# ">
+"2057
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2057: __asm("SSPMSK equ 093h");
+[; <" SSPMSK equ 093h ;# ">
+"2062
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2062: __asm("MSK equ 093h");
+[; <" MSK equ 093h ;# ">
+"2179
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2179: __asm("SSPSTAT equ 094h");
+[; <" SSPSTAT equ 094h ;# ">
+"2348
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2348: __asm("WPUB equ 095h");
+[; <" WPUB equ 095h ;# ">
+"2418
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2418: __asm("IOCB equ 096h");
+[; <" IOCB equ 096h ;# ">
+"2488
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2488: __asm("VRCON equ 097h");
+[; <" VRCON equ 097h ;# ">
+"2558
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2558: __asm("TXSTA equ 098h");
+[; <" TXSTA equ 098h ;# ">
+"2644
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2644: __asm("SPBRG equ 099h");
+[; <" SPBRG equ 099h ;# ">
+"2706
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2706: __asm("SPBRGH equ 09Ah");
+[; <" SPBRGH equ 09Ah ;# ">
+"2776
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2776: __asm("PWM1CON equ 09Bh");
+[; <" PWM1CON equ 09Bh ;# ">
+"2846
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2846: __asm("ECCPAS equ 09Ch");
+[; <" ECCPAS equ 09Ch ;# ">
+"2928
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2928: __asm("PSTRCON equ 09Dh");
+[; <" PSTRCON equ 09Dh ;# ">
+"2972
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2972: __asm("ADRESL equ 09Eh");
+[; <" ADRESL equ 09Eh ;# ">
+"2979
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 2979: __asm("ADCON1 equ 09Fh");
+[; <" ADCON1 equ 09Fh ;# ">
+"3013
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3013: __asm("WDTCON equ 0105h");
+[; <" WDTCON equ 0105h ;# ">
+"3066
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3066: __asm("CM1CON0 equ 0107h");
+[; <" CM1CON0 equ 0107h ;# ">
+"3131
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3131: __asm("CM2CON0 equ 0108h");
+[; <" CM2CON0 equ 0108h ;# ">
+"3196
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3196: __asm("CM2CON1 equ 0109h");
+[; <" CM2CON1 equ 0109h ;# ">
+"3247
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3247: __asm("EEDATA equ 010Ch");
+[; <" EEDATA equ 010Ch ;# ">
+"3252
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3252: __asm("EEDAT equ 010Ch");
+[; <" EEDAT equ 010Ch ;# ">
+"3259
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3259: __asm("EEADR equ 010Dh");
+[; <" EEADR equ 010Dh ;# ">
+"3266
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3266: __asm("EEDATH equ 010Eh");
+[; <" EEDATH equ 010Eh ;# ">
+"3273
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3273: __asm("EEADRH equ 010Fh");
+[; <" EEADRH equ 010Fh ;# ">
+"3280
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3280: __asm("SRCON equ 0185h");
+[; <" SRCON equ 0185h ;# ">
+"3337
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3337: __asm("BAUDCTL equ 0187h");
+[; <" BAUDCTL equ 0187h ;# ">
+"3389
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3389: __asm("ANSEL equ 0188h");
+[; <" ANSEL equ 0188h ;# ">
+"3451
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3451: __asm("ANSELH equ 0189h");
+[; <" ANSELH equ 0189h ;# ">
+"3501
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3501: __asm("EECON1 equ 018Ch");
+[; <" EECON1 equ 018Ch ;# ">
+"3546
+[; ;C:/Program Files/Microchip/MPLABX/v6.15/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h: 3546: __asm("EECON2 equ 018Dh");
+[; <" EECON2 equ 018Dh ;# ">
+"46 ./LCD.c
+[; ;./LCD.c: 46: void lcd_write(unsigned char c)
+[v _lcd_write `(v ~T0 @X0 1 ef1`uc ]
+"47
+[; ;./LCD.c: 47: {
+{
+[e :U _lcd_write ]
+"46
+[; ;./LCD.c: 46: void lcd_write(unsigned char c)
+[v _c `uc ~T0 @X0 1 r1 ]
+"47
+[; ;./LCD.c: 47: {
+[f ]
+"48
+[; ;./LCD.c: 48:  _delay((unsigned long)((40)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 40 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"49
+[; ;./LCD.c: 49:  PORTB = (PORTB & 0xF0) | ( ( c >> 4 ) & 0x0F);
+[e = _PORTB -> | & -> _PORTB `i -> 240 `i & >> -> _c `i -> 4 `i -> 15 `i `uc ]
+"51
+[; ;./LCD.c: 51:  ((RB5 = 1),(RB5=0));
+[e ; -> = _RB5 -> -> 1 `i `b `i -> = _RB5 -> -> 0 `i `b `i ]
+"52
+[; ;./LCD.c: 52:  _delay((unsigned long)((200)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"54
+[; ;./LCD.c: 54:  PORTB = (PORTB & 0xF0) | ( c & 0x0F );
+[e = _PORTB -> | & -> _PORTB `i -> 240 `i & -> _c `i -> 15 `i `uc ]
+"56
+[; ;./LCD.c: 56:  ((RB5 = 1),(RB5=0));
+[e ; -> = _RB5 -> -> 1 `i `b `i -> = _RB5 -> -> 0 `i `b `i ]
+"57
+[; ;./LCD.c: 57:  _delay((unsigned long)((200)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"58
+[; ;./LCD.c: 58: }
+[e :UE 143 ]
+}
+"61
+[; ;./LCD.c: 61: void lcd_clear(void)
+[v _lcd_clear `(v ~T0 @X0 1 ef ]
+"62
+[; ;./LCD.c: 62: {
+{
+[e :U _lcd_clear ]
+[f ]
+"63
+[; ;./LCD.c: 63:  RB4 = 0;
+[e = _RB4 -> -> 0 `i `b ]
+"64
+[; ;./LCD.c: 64:  lcd_write(0x01);
+[e ( _lcd_write (1 -> -> 1 `i `uc ]
+"65
+[; ;./LCD.c: 65:  _delay((unsigned long)((2)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 2 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"66
+[; ;./LCD.c: 66: }
+[e :UE 144 ]
+}
+"69
+[; ;./LCD.c: 69: void lcd_out( unsigned char line, unsigned char character, const char * s)
+[v _lcd_out `(v ~T0 @X0 1 ef3`uc`uc`*Cuc ]
+"70
+[; ;./LCD.c: 70: {
+{
+[e :U _lcd_out ]
+"69
+[; ;./LCD.c: 69: void lcd_out( unsigned char line, unsigned char character, const char * s)
+[v _line `uc ~T0 @X0 1 r1 ]
+[v _character `uc ~T0 @X0 1 r2 ]
+[v _s `*Cuc ~T0 @X0 1 r3 ]
+"70
+[; ;./LCD.c: 70: {
+[f ]
+"71
+[; ;./LCD.c: 71:  lcd_goto( ( 0x40 * ( line - 1 ) ) + ( character - 1 ) );
+[e ( _lcd_goto (1 -> + * -> 64 `i - -> _line `i -> 1 `i - -> _character `i -> 1 `i `uc ]
+"73
+[; ;./LCD.c: 73:  RB4 = 1;
+[e = _RB4 -> -> 1 `i `b ]
+"74
+[; ;./LCD.c: 74:  while(*s)
+[e $U 146  ]
+[e :U 147 ]
+"75
+[; ;./LCD.c: 75:   lcd_write(*s++);
+[e ( _lcd_write (1 -> *U ++ _s * -> -> 1 `i `x -> -> # *U _s `i `x `uc ]
+[e :U 146 ]
+"74
+[; ;./LCD.c: 74:  while(*s)
+[e $ != -> *U _s `i -> 0 `i 147  ]
+[e :U 148 ]
+"76
+[; ;./LCD.c: 76: }
+[e :UE 145 ]
+}
+"79
+[; ;./LCD.c: 79: void lcd_chr_cp(char c)
+[v _lcd_chr_cp `(v ~T0 @X0 1 ef1`uc ]
+"80
+[; ;./LCD.c: 80: {
+{
+[e :U _lcd_chr_cp ]
+"79
+[; ;./LCD.c: 79: void lcd_chr_cp(char c)
+[v _c `uc ~T0 @X0 1 r1 ]
+"80
+[; ;./LCD.c: 80: {
+[f ]
+"81
+[; ;./LCD.c: 81:  RB4 = 1;
+[e = _RB4 -> -> 1 `i `b ]
+"82
+[; ;./LCD.c: 82:  lcd_write( c );
+[e ( _lcd_write (1 -> _c `uc ]
+"83
+[; ;./LCD.c: 83: }
+[e :UE 149 ]
+}
+"85
+[; ;./LCD.c: 85: void lcd_chr( unsigned char line, unsigned char character, char c ) {
+[v _lcd_chr `(v ~T0 @X0 1 ef3`uc`uc`uc ]
+{
+[e :U _lcd_chr ]
+[v _line `uc ~T0 @X0 1 r1 ]
+[v _character `uc ~T0 @X0 1 r2 ]
+[v _c `uc ~T0 @X0 1 r3 ]
+[f ]
+"86
+[; ;./LCD.c: 86:  lcd_goto( ( 0x40 * ( line - 1 ) ) + ( character - 1 ) );
+[e ( _lcd_goto (1 -> + * -> 64 `i - -> _line `i -> 1 `i - -> _character `i -> 1 `i `uc ]
+"88
+[; ;./LCD.c: 88:  RB4 = 1;
+[e = _RB4 -> -> 1 `i `b ]
+"89
+[; ;./LCD.c: 89:  lcd_write( c );
+[e ( _lcd_write (1 -> _c `uc ]
+"90
+[; ;./LCD.c: 90: }
+[e :UE 150 ]
+}
+"92
+[; ;./LCD.c: 92: void lcd_cmd( unsigned char c ) {
+[v _lcd_cmd `(v ~T0 @X0 1 ef1`uc ]
+{
+[e :U _lcd_cmd ]
+[v _c `uc ~T0 @X0 1 r1 ]
+[f ]
+"93
+[; ;./LCD.c: 93:  RB4 = 0;
+[e = _RB4 -> -> 0 `i `b ]
+"94
+[; ;./LCD.c: 94:  lcd_write( c );
+[e ( _lcd_write (1 _c ]
+"95
+[; ;./LCD.c: 95: }
+[e :UE 151 ]
+}
+"98
+[; ;./LCD.c: 98: void lcd_goto(unsigned char pos)
+[v _lcd_goto `(v ~T0 @X0 1 ef1`uc ]
+"99
+[; ;./LCD.c: 99: {
+{
+[e :U _lcd_goto ]
+"98
+[; ;./LCD.c: 98: void lcd_goto(unsigned char pos)
+[v _pos `uc ~T0 @X0 1 r1 ]
+"99
+[; ;./LCD.c: 99: {
+[f ]
+"100
+[; ;./LCD.c: 100:  RB4 = 0;
+[e = _RB4 -> -> 0 `i `b ]
+"101
+[; ;./LCD.c: 101:  lcd_write(0x80+pos);
+[e ( _lcd_write (1 -> + -> 128 `i -> _pos `i `uc ]
+"102
+[; ;./LCD.c: 102: }
+[e :UE 152 ]
+}
+"105
+[; ;./LCD.c: 105: void lcd_init()
+[v _lcd_init `(v ~T0 @X0 1 ef ]
+"106
+[; ;./LCD.c: 106: {
+{
+[e :U _lcd_init ]
+[f ]
+"108
+[; ;./LCD.c: 108:  ANSEL = 0x00;
+[e = _ANSEL -> -> 0 `i `uc ]
+"109
+[; ;./LCD.c: 109:  ANSELH = 0x00;
+[e = _ANSELH -> -> 0 `i `uc ]
+"110
+[; ;./LCD.c: 110:  RB4 = 0;
+[e = _RB4 -> -> 0 `i `b ]
+"111
+[; ;./LCD.c: 111:  RB5 = 0;
+[e = _RB5 -> -> 0 `i `b ]
+"112
+[; ;./LCD.c: 112:  RB6 = 0;
+[e = _RB6 -> -> 0 `i `b ]
+"114
+[; ;./LCD.c: 114:  _delay((unsigned long)((20)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 20 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"115
+[; ;./LCD.c: 115:  PORTB = (PORTB & 0xF0) | ( 0x03 & 0x0F );
+[e = _PORTB -> | & -> _PORTB `i -> 240 `i & -> 3 `i -> 15 `i `uc ]
+"117
+[; ;./LCD.c: 117:  ((RB5 = 1),(RB5=0));
+[e ; -> = _RB5 -> -> 1 `i `b `i -> = _RB5 -> -> 0 `i `b `i ]
+"118
+[; ;./LCD.c: 118:  _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"119
+[; ;./LCD.c: 119:  ((RB5 = 1),(RB5=0));
+[e ; -> = _RB5 -> -> 1 `i `b `i -> = _RB5 -> -> 0 `i `b `i ]
+"120
+[; ;./LCD.c: 120:  _delay((unsigned long)((200)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"121
+[; ;./LCD.c: 121:  ((RB5 = 1),(RB5=0));
+[e ; -> = _RB5 -> -> 1 `i `b `i -> = _RB5 -> -> 0 `i `b `i ]
+"122
+[; ;./LCD.c: 122:  _delay((unsigned long)((200)*(8000000/4000000.0)));
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000000.0 `ul ]
+"124
+[; ;./LCD.c: 124:  PORTB = (PORTB & 0xF0) | ( 0x02 & 0x0F );
+[e = _PORTB -> | & -> _PORTB `i -> 240 `i & -> 2 `i -> 15 `i `uc ]
+"125
+[; ;./LCD.c: 125:  ((RB5 = 1),(RB5=0));
+[e ; -> = _RB5 -> -> 1 `i `b `i -> = _RB5 -> -> 0 `i `b `i ]
+"126
+[; ;./LCD.c: 126:  _delay((unsigned long)((5)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"128
+[; ;./LCD.c: 128:  lcd_write(0x28);
+[e ( _lcd_write (1 -> -> 40 `i `uc ]
+"129
+[; ;./LCD.c: 129:  lcd_clear();
+[e ( _lcd_clear ..  ]
+"130
+[; ;./LCD.c: 130:  lcd_write(0x06);
+[e ( _lcd_write (1 -> -> 6 `i `uc ]
+"131
+[; ;./LCD.c: 131:  lcd_write(0x0C);
+[e ( _lcd_write (1 -> -> 12 `i `uc ]
+"132
+[; ;./LCD.c: 132: }
+[e :UE 153 ]
+}
+"54 Lokaverkefni.c
+[; ;Lokaverkefni.c: 54:     if(input == 0x11 || input == 0x21 || input == 0x41 || input == 0x81){
+[p x FOSC  =  INTRC_NOCLKOUT   ]
+"55
+[; ;Lokaverkefni.c: 55:         switch(input){
+[p x WDTE  =  OFF   ]
+"56
+[; ;Lokaverkefni.c: 56:             case 0x11: tala = 1; press++; break;
+[p x PWRTE  =  ON   ]
+"57
+[; ;Lokaverkefni.c: 57:             case 0x21: tala = 4; press++; break;
+[p x MCLRE  =  ON   ]
+"58
+[; ;Lokaverkefni.c: 58:             case 0x41: tala = 7; press++; break;
+[p x CP  =  OFF     ]
+"59
+[; ;Lokaverkefni.c: 59:             case 0x81: tala = 14; press++; break;
+[p x BOREN  =  ON   ]
+"60
+[; ;Lokaverkefni.c: 60:         }
+[p x IESO  =  ON    ]
+"61
+[; ;Lokaverkefni.c: 61:     }
+[p x FCMEN  =  ON   ]
+"62
+[; ;Lokaverkefni.c: 62:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[p x LVP  =  OFF    ]
+"63
+[; ;Lokaverkefni.c: 63:     PORTD = 0x02;
+[p x DEBUG  =  OFF  ]
+"64
+[; ;Lokaverkefni.c: 64:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[p x BOR4V  =  BOR40V  ]
+"70
+[; ;Lokaverkefni.c: 70:             case 0x42: tala = 8; press++; break;
+[v _DebounceA `i ~T0 @X0 1 e ]
+[i _DebounceA
+-> 0 `i
+]
+[v _DebounceB `i ~T0 @X0 1 e ]
+[i _DebounceB
+-> 0 `i
+]
+[v _interrupt_ms `i ~T0 @X0 1 e ]
+[i _interrupt_ms
+-> 0 `i
+]
+"71
+[; ;Lokaverkefni.c: 71:             case 0x82: tala = 0; press++; break;
+[v _segull `i ~T0 @X0 1 e ]
+[v _scan `i ~T0 @X0 1 e ]
+[i _scan
+-> 0 `i
+]
+"72
+[; ;Lokaverkefni.c: 72:         }
+[v _flicker1 `i ~T0 @X0 1 e ]
+[i _flicker1
+-> 0 `i
+]
+[v _flickerA1 `i ~T0 @X0 1 e ]
+[i _flickerA1
+-> 0 `i
+]
+[v _flicker2 `i ~T0 @X0 1 e ]
+[i _flicker2
+-> 0 `i
+]
+[v _flickerA2 `i ~T0 @X0 1 e ]
+[i _flickerA2
+-> 0 `i
+]
+"73
+[; ;Lokaverkefni.c: 73:     }
+[v _flickerspeed `i ~T0 @X0 1 e ]
+[i _flickerspeed
+-> 100 `i
+]
+[v _flickermax `i ~T0 @X0 1 e ]
+[i _flickermax
+-> 70 `i
+]
+[v _teljari `i ~T0 @X0 1 e ]
+"76
+[; ;Lokaverkefni.c: 76:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[v _kubbur1 `i ~T0 @X0 1 e ]
+[i _kubbur1
+-> 0 `i
+]
+[v _kubbur2 `i ~T0 @X0 1 e ]
+[i _kubbur2
+-> 0 `i
+]
+[v _kubbur3 `i ~T0 @X0 1 e ]
+[i _kubbur3
+-> 0 `i
+]
+[v _kubbur4 `i ~T0 @X0 1 e ]
+[i _kubbur4
+-> 0 `i
+]
+"79
+[; ;Lokaverkefni.c: 79:         switch(input){
+[v _run `i ~T0 @X0 1 e ]
+[i _run
+-> 0 `i
+]
+[v _pallur `i ~T0 @X0 1 e ]
+[i _pallur
+-> 0 `i
+]
+[v _keyra `i ~T0 @X0 1 e ]
+[i _keyra
+-> 0 `i
+]
+[v _veljari `i ~T0 @X0 1 e ]
+[i _veljari
+-> 0 `i
+]
+"82
+[; ;Lokaverkefni.c: 82:             case 0x44: tala = 9; press++; break;
+[v _ManualRun `i ~T0 @X0 1 e ]
+[i _ManualRun
+-> 0 `i
+]
+"84
+[; ;Lokaverkefni.c: 84:         }
+[v _tala `i ~T0 @X0 1 e ]
+[i _tala
+-> 0 `i
+]
+[v _yta `i ~T0 @X0 1 e ]
+[i _yta
+-> 0 `i
+]
+[v _bakka `i ~T0 @X0 1 e ]
+[i _bakka
+-> 0 `i
+]
+"85
+[; ;Lokaverkefni.c: 85:     }
+[v _teljari `i ~T0 @X0 1 e ]
+[i _teljari
+-> 0 `i
+]
+"87
+[; ;Lokaverkefni.c: 87:     PORTD = 0x08;
+[v _reset `(i ~T0 @X0 1 ef ]
+"88
+[; ;Lokaverkefni.c: 88:     _delay((unsigned long)((5)*(8000000/4000.0)));
+{
+[e :U _reset ]
+[f ]
+"89
+[; ;Lokaverkefni.c: 89:     input = PORTD;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 1C ]
+"90
+[; ;Lokaverkefni.c: 90:     if(input == 0x18 || input == 0x28 || input == 0x48 || input == 0x88){
+[e $ ! == -> _RA0 `i -> 0 `i 155  ]
+{
+"91
+[; ;Lokaverkefni.c: 91:         switch(input){
+[e :U 158 ]
+{
+"92
+[; ;Lokaverkefni.c: 92:             case 0x18: tala = 10; press++; break;
+[e = _RC0 -> -> 1 `i `b ]
+"93
+[; ;Lokaverkefni.c: 93:             case 0x28: tala = 11; press++; break;
+}
+[e $ == -> _RA0 `i -> 0 `i 158  ]
+[e :U 157 ]
+"94
+[; ;Lokaverkefni.c: 94:             case 0x48: tala = 12; press++; break;
+[e = _RC0 -> -> 0 `i `b ]
+"95
+[; ;Lokaverkefni.c: 95:             case 0x88: tala = 13; press++; break;
+}
+[e :U 155 ]
+"96
+[; ;Lokaverkefni.c: 96:         }
+[e $ ! == -> _RA2 `i -> 0 `i 159  ]
+{
+"97
+[; ;Lokaverkefni.c: 97:     }
+[e :U 162 ]
+{
+"98
+[; ;Lokaverkefni.c: 98:     _delay((unsigned long)((5)*(8000000/4000.0)));
+[e = _RC3 -> -> 1 `i `b ]
+"99
+[; ;Lokaverkefni.c: 99:     if((press == 0) && (tala == -1)){
+}
+[e $ == -> _RA2 `i -> 0 `i 162  ]
+[e :U 161 ]
+"100
+[; ;Lokaverkefni.c: 100:         return tala;
+[e = _RC3 -> -> 0 `i `b ]
+"101
+[; ;Lokaverkefni.c: 101:     }
+}
+[e :U 159 ]
+"102
+[; ;Lokaverkefni.c: 102:     return tala;
+[e $ ! == -> _RA4 `i -> 0 `i 163  ]
+{
+"103
+[; ;Lokaverkefni.c: 103: }
+[e :U 166 ]
+{
+"104
+[; ;Lokaverkefni.c: 104: 
+[e = _RC5 -> -> 1 `i `b ]
+"105
+[; ;Lokaverkefni.c: 105: void Val(void)
+}
+[e $ == -> _RA4 `i -> 0 `i 166  ]
+[e :U 165 ]
+"106
+[; ;Lokaverkefni.c: 106: {
+[e = _RC5 -> -> 0 `i `b ]
+"107
+[; ;Lokaverkefni.c: 107:     _delay((unsigned long)((350)*(8000000/4000.0)));
+}
+[e :U 163 ]
+"108
+[; ;Lokaverkefni.c: 108:     int num = -1;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 2C ]
+"109
+[; ;Lokaverkefni.c: 109:     lcd_out(2,1, "                ");
+[e :UE 154 ]
+}
+"111
+[; ;Lokaverkefni.c: 111:         lcd_out(1,1, "Velja 1,2 eda 3");
+[v _KeyPad `(i ~T0 @X0 1 ef ]
+"112
+[; ;Lokaverkefni.c: 112:         lcd_out(2,1, "Kassi 1:");
+{
+[e :U _KeyPad ]
+[f ]
+"113
+[; ;Lokaverkefni.c: 113:         num = KeyPad();
+[e = _PORTD -> -> 0 `i `uc ]
+"114
+[; ;Lokaverkefni.c: 114:         if(num <= 0 && num >= 4){
+[v _tala `i ~T0 @X0 1 a ]
+[e = _tala -U -> 1 `i ]
+"115
+[; ;Lokaverkefni.c: 115:             num = -1;
+[v _input `i ~T0 @X0 1 a ]
+"116
+[; ;Lokaverkefni.c: 116:             _delay((unsigned long)((500)*(8000000/4000.0)));
+[v _press `i ~T0 @X0 1 a ]
+[e = _press -> 0 `i ]
+"117
+[; ;Lokaverkefni.c: 117:         }
+[e = _PORTD -> -> 1 `i `uc ]
+"118
+[; ;Lokaverkefni.c: 118:         if(num >= 1 && num <= 3){
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"119
+[; ;Lokaverkefni.c: 119:             kubbur1 = num;
+[e = _input -> _PORTD `i ]
+"120
+[; ;Lokaverkefni.c: 120:             _delay((unsigned long)((15)*(8000000/4000.0)));
+[e $ ! || || || == _input -> 17 `i == _input -> 33 `i == _input -> 65 `i == _input -> 129 `i 168  ]
+{
+"121
+[; ;Lokaverkefni.c: 121:         }
+[e $U 170  ]
+{
+"122
+[; ;Lokaverkefni.c: 122:     }
+[e :U 171 ]
+[e = _tala -> 1 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 169  ]
+"123
+[; ;Lokaverkefni.c: 123:     lcd_chr_cp(num+48);
+[e :U 172 ]
+[e = _tala -> 4 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 169  ]
+"124
+[; ;Lokaverkefni.c: 124:     _delay((unsigned long)((15)*(8000000/4000.0)));
+[e :U 173 ]
+[e = _tala -> 7 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 169  ]
+"125
+[; ;Lokaverkefni.c: 125:     num = -1;
+[e :U 174 ]
+[e = _tala -> 14 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 169  ]
+"126
+[; ;Lokaverkefni.c: 126:     _delay((unsigned long)((350)*(8000000/4000.0)));
+}
+[e $U 169  ]
+[e :U 170 ]
+[e [\ _input , $ -> 17 `i 171
+ , $ -> 33 `i 172
+ , $ -> 65 `i 173
+ , $ -> 129 `i 174
+ 169 ]
+[e :U 169 ]
+"127
+[; ;Lokaverkefni.c: 127:     lcd_out(2,1, "                ");
+}
+[e :U 168 ]
+"128
+[; ;Lokaverkefni.c: 128:     while(num == -1){
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"129
+[; ;Lokaverkefni.c: 129:         lcd_out(1,1, "Velja 1,2 eda 3");
+[e = _PORTD -> -> 2 `i `uc ]
+"130
+[; ;Lokaverkefni.c: 130:         lcd_out(2,1, "Kassi 2:");
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"131
+[; ;Lokaverkefni.c: 131:         num = KeyPad();
+[e = _input -> _PORTD `i ]
+"132
+[; ;Lokaverkefni.c: 132:         if(num <= 0 && num >= 4){
+[e $ ! || || || == _input -> 18 `i == _input -> 34 `i == _input -> 66 `i == _input -> 130 `i 175  ]
+{
+"133
+[; ;Lokaverkefni.c: 133:             num = -1;
+[e $U 177  ]
+{
+"134
+[; ;Lokaverkefni.c: 134:             _delay((unsigned long)((500)*(8000000/4000.0)));
+[e :U 178 ]
+[e = _tala -> 2 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 176  ]
+"135
+[; ;Lokaverkefni.c: 135:         }
+[e :U 179 ]
+[e = _tala -> 5 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 176  ]
+"136
+[; ;Lokaverkefni.c: 136:         if(num >= 1 && num <= 3){
+[e :U 180 ]
+[e = _tala -> 8 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 176  ]
+"137
+[; ;Lokaverkefni.c: 137:             kubbur2 = num;
+[e :U 181 ]
+[e = _tala -> 0 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 176  ]
+"138
+[; ;Lokaverkefni.c: 138:             _delay((unsigned long)((15)*(8000000/4000.0)));
+}
+[e $U 176  ]
+[e :U 177 ]
+[e [\ _input , $ -> 18 `i 178
+ , $ -> 34 `i 179
+ , $ -> 66 `i 180
+ , $ -> 130 `i 181
+ 176 ]
+[e :U 176 ]
+"139
+[; ;Lokaverkefni.c: 139:         }
+}
+[e :U 175 ]
+"140
+[; ;Lokaverkefni.c: 140:     }
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"141
+[; ;Lokaverkefni.c: 141:     lcd_chr_cp(num+48);
+[e = _PORTD -> -> 4 `i `uc ]
+"142
+[; ;Lokaverkefni.c: 142:     _delay((unsigned long)((15)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"143
+[; ;Lokaverkefni.c: 143:     num = -1;
+[e = _input -> _PORTD `i ]
+"144
+[; ;Lokaverkefni.c: 144:     _delay((unsigned long)((350)*(8000000/4000.0)));
+[e $ ! || || || == _input -> 20 `i == _input -> 36 `i == _input -> 68 `i == _input -> 132 `i 182  ]
+{
+"145
+[; ;Lokaverkefni.c: 145:     lcd_out(2,1, "                ");
+[e $U 184  ]
+{
+"146
+[; ;Lokaverkefni.c: 146:     while(num == -1){
+[e :U 185 ]
+[e = _tala -> 3 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 183  ]
+"147
+[; ;Lokaverkefni.c: 147:         lcd_out(1,1, "Velja 1,2 eda 3");
+[e :U 186 ]
+[e = _tala -> 6 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 183  ]
+"148
+[; ;Lokaverkefni.c: 148:         lcd_out(2,1, "Kassi 3:");
+[e :U 187 ]
+[e = _tala -> 9 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 183  ]
+"149
+[; ;Lokaverkefni.c: 149:         num = KeyPad();
+[e :U 188 ]
+[e = _tala -> 15 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 183  ]
+"150
+[; ;Lokaverkefni.c: 150:         if(num <= 0 && num >= 4){
+}
+[e $U 183  ]
+[e :U 184 ]
+[e [\ _input , $ -> 20 `i 185
+ , $ -> 36 `i 186
+ , $ -> 68 `i 187
+ , $ -> 132 `i 188
+ 183 ]
+[e :U 183 ]
+"151
+[; ;Lokaverkefni.c: 151:             num = -1;
+}
+[e :U 182 ]
+"152
+[; ;Lokaverkefni.c: 152:             _delay((unsigned long)((500)*(8000000/4000.0)));
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"153
+[; ;Lokaverkefni.c: 153:         }
+[e = _PORTD -> -> 8 `i `uc ]
+"154
+[; ;Lokaverkefni.c: 154:         if(num >= 1 && num <= 3){
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"155
+[; ;Lokaverkefni.c: 155:             kubbur3 = num;
+[e = _input -> _PORTD `i ]
+"156
+[; ;Lokaverkefni.c: 156:             _delay((unsigned long)((15)*(8000000/4000.0)));
+[e $ ! || || || == _input -> 24 `i == _input -> 40 `i == _input -> 72 `i == _input -> 136 `i 189  ]
+{
+"157
+[; ;Lokaverkefni.c: 157:         }
+[e $U 191  ]
+{
+"158
+[; ;Lokaverkefni.c: 158:     }
+[e :U 192 ]
+[e = _tala -> 10 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 190  ]
+"159
+[; ;Lokaverkefni.c: 159:     lcd_chr_cp(num+48);
+[e :U 193 ]
+[e = _tala -> 11 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 190  ]
+"160
+[; ;Lokaverkefni.c: 160:     _delay((unsigned long)((15)*(8000000/4000.0)));
+[e :U 194 ]
+[e = _tala -> 12 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 190  ]
+"161
+[; ;Lokaverkefni.c: 161:     num = -1;
+[e :U 195 ]
+[e = _tala -> 13 `i ]
+[e ++ _press -> 1 `i ]
+[e $U 190  ]
+"162
+[; ;Lokaverkefni.c: 162:     _delay((unsigned long)((350)*(8000000/4000.0)));
+}
+[e $U 190  ]
+[e :U 191 ]
+[e [\ _input , $ -> 24 `i 192
+ , $ -> 40 `i 193
+ , $ -> 72 `i 194
+ , $ -> 136 `i 195
+ 190 ]
+[e :U 190 ]
+"163
+[; ;Lokaverkefni.c: 163:     lcd_out(2,1, "                ");
+}
+[e :U 189 ]
+"164
+[; ;Lokaverkefni.c: 164:     while(num == -1){
+[e ( __delay (1 -> * -> -> 5 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"165
+[; ;Lokaverkefni.c: 165:         lcd_out(1,1, "Velja 1,2 eda 3");
+[e $ ! && == _press -> 0 `i == _tala -U -> 1 `i 196  ]
+{
+"166
+[; ;Lokaverkefni.c: 166:         lcd_out(2,1, "Kassi 4:");
+[e ) _tala ]
+[e $UE 167  ]
+"167
+[; ;Lokaverkefni.c: 167:         num = KeyPad();
+}
+[e :U 196 ]
+"168
+[; ;Lokaverkefni.c: 168:         if(num <= 0 || num >= 4){
+[e ) _tala ]
+[e $UE 167  ]
+"169
+[; ;Lokaverkefni.c: 169:             num = -1;
+[e :UE 167 ]
+}
+"171
+[; ;Lokaverkefni.c: 171:         }
+[v _Val `(v ~T0 @X0 1 ef ]
+"172
+[; ;Lokaverkefni.c: 172:         if(num >= 1 && num <= 3){
+{
+[e :U _Val ]
+[f ]
+"173
+[; ;Lokaverkefni.c: 173:             kubbur4 = num;
+[e ( __delay (1 -> * -> -> 350 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"174
+[; ;Lokaverkefni.c: 174:             _delay((unsigned long)((15)*(8000000/4000.0)));
+[v _num `i ~T0 @X0 1 a ]
+[e = _num -U -> 1 `i ]
+"175
+[; ;Lokaverkefni.c: 175:         }
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 3C ]
+"176
+[; ;Lokaverkefni.c: 176:     }
+[e $U 198  ]
+[e :U 199 ]
+{
+"177
+[; ;Lokaverkefni.c: 177:     lcd_chr_cp(num+48);
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 4C ]
+"178
+[; ;Lokaverkefni.c: 178:     _delay((unsigned long)((15)*(8000000/4000.0)));
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 5C ]
+"179
+[; ;Lokaverkefni.c: 179:     num = -1;
+[e = _num ( _KeyPad ..  ]
+"180
+[; ;Lokaverkefni.c: 180:     _delay((unsigned long)((350)*(8000000/4000.0)));
+[e $ ! && <= _num -> 0 `i >= _num -> 4 `i 201  ]
+{
+"181
+[; ;Lokaverkefni.c: 181:     lcd_out(1,1, "                ");
+[e = _num -U -> 1 `i ]
+"182
+[; ;Lokaverkefni.c: 182:     lcd_out(2,1, "                ");
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"183
+[; ;Lokaverkefni.c: 183:     _delay((unsigned long)((150)*(8000000/4000.0)));
+}
+[e :U 201 ]
+"184
+[; ;Lokaverkefni.c: 184: }
+[e $ ! && >= _num -> 1 `i <= _num -> 3 `i 202  ]
+{
+"185
+[; ;Lokaverkefni.c: 185: 
+[e = _kubbur1 _num ]
+"186
+[; ;Lokaverkefni.c: 186: void A(void)
+[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"187
+[; ;Lokaverkefni.c: 187: {
+}
+[e :U 202 ]
+"188
+[; ;Lokaverkefni.c: 188:     if(run == 0){
+}
+[e :U 198 ]
+"176
+[; ;Lokaverkefni.c: 176:     }
+[e $ == _num -U -> 1 `i 199  ]
+[e :U 200 ]
+"189
+[; ;Lokaverkefni.c: 189: 
+[e ( _lcd_chr_cp (1 -> + _num -> 48 `i `uc ]
+"190
+[; ;Lokaverkefni.c: 190:         segull = 0;
+[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"191
+[; ;Lokaverkefni.c: 191:         teljari = 0;
+[e = _num -U -> 1 `i ]
+"192
+[; ;Lokaverkefni.c: 192:         run = 1;
+[e ( __delay (1 -> * -> -> 350 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"193
+[; ;Lokaverkefni.c: 193:         Val();
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 6C ]
+"194
+[; ;Lokaverkefni.c: 194:     }
+[e $U 203  ]
+[e :U 204 ]
+{
+"195
+[; ;Lokaverkefni.c: 195:     _delay((unsigned long)((350)*(8000000/4000.0)));
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 7C ]
+"196
+[; ;Lokaverkefni.c: 196:     if(RA7 == 1){
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 8C ]
+"197
+[; ;Lokaverkefni.c: 197:         lcd_out(1,1, "                ");
+[e = _num ( _KeyPad ..  ]
+"198
+[; ;Lokaverkefni.c: 198:         lcd_out(1,2, "                ");
+[e $ ! && <= _num -> 0 `i >= _num -> 4 `i 206  ]
+{
+"199
+[; ;Lokaverkefni.c: 199:         do{
+[e = _num -U -> 1 `i ]
+"200
+[; ;Lokaverkefni.c: 200:             lcd_out(1,1, "Vantar kubb");
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"201
+[; ;Lokaverkefni.c: 201:         }while(RA7 == 1);
+}
+[e :U 206 ]
+"202
+[; ;Lokaverkefni.c: 202:         lcd_out(1,1, "                ");
+[e $ ! && >= _num -> 1 `i <= _num -> 3 `i 207  ]
+{
+"203
+[; ;Lokaverkefni.c: 203:     }
+[e = _kubbur2 _num ]
+"204
+[; ;Lokaverkefni.c: 204:     do{
+[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"205
+[; ;Lokaverkefni.c: 205:         int num = -1;
+}
+[e :U 207 ]
+"206
+[; ;Lokaverkefni.c: 206:         do{
+}
+[e :U 203 ]
+"194
+[; ;Lokaverkefni.c: 194:     }
+[e $ == _num -U -> 1 `i 204  ]
+[e :U 205 ]
+"207
+[; ;Lokaverkefni.c: 207:             num = KeyPad();
+[e ( _lcd_chr_cp (1 -> + _num -> 48 `i `uc ]
+"208
+[; ;Lokaverkefni.c: 208:             lcd_out(1,1, "A til ad byrja");
+[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"209
+[; ;Lokaverkefni.c: 209:             lcd_out(2,1, "0 til ad haetta");
+[e = _num -U -> 1 `i ]
+"210
+[; ;Lokaverkefni.c: 210:         }while(num == -1);
+[e ( __delay (1 -> * -> -> 350 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"211
+[; ;Lokaverkefni.c: 211:         if(num == 0){
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 9C ]
+"212
+[; ;Lokaverkefni.c: 212:             run = 0;
+[e $U 208  ]
+[e :U 209 ]
+{
+"213
+[; ;Lokaverkefni.c: 213:         }
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 10C ]
+"214
+[; ;Lokaverkefni.c: 214:         else if(num == 10){
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 11C ]
+"215
+[; ;Lokaverkefni.c: 215:             num = -1;
+[e = _num ( _KeyPad ..  ]
+"216
+[; ;Lokaverkefni.c: 216:             if(RA7 == 1){
+[e $ ! && <= _num -> 0 `i >= _num -> 4 `i 211  ]
+{
+"217
+[; ;Lokaverkefni.c: 217:                 lcd_out(1,1, "                ");
+[e = _num -U -> 1 `i ]
+"218
+[; ;Lokaverkefni.c: 218:                 lcd_out(1,2, "                ");
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"219
+[; ;Lokaverkefni.c: 219:                 do{
+}
+[e :U 211 ]
+"220
+[; ;Lokaverkefni.c: 220:                     lcd_out(1,1, "Vantar kubb");
+[e $ ! && >= _num -> 1 `i <= _num -> 3 `i 212  ]
+{
+"221
+[; ;Lokaverkefni.c: 221:                 }while(RA7 == 1);
+[e = _kubbur3 _num ]
+"222
+[; ;Lokaverkefni.c: 222:                 lcd_out(1,1, "                ");
+[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"223
+[; ;Lokaverkefni.c: 223:                 _delay((unsigned long)((350)*(8000000/4000.0)));
+}
+[e :U 212 ]
+"224
+[; ;Lokaverkefni.c: 224:             }
+}
+[e :U 208 ]
+"212
+[; ;Lokaverkefni.c: 212:             run = 0;
+[e $ == _num -U -> 1 `i 209  ]
+[e :U 210 ]
+"225
+[; ;Lokaverkefni.c: 225:             RC0 = 1;
+[e ( _lcd_chr_cp (1 -> + _num -> 48 `i `uc ]
+"226
+[; ;Lokaverkefni.c: 226:             RC1 = 1;
+[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"227
+[; ;Lokaverkefni.c: 227:             lcd_out(1,1, "                ");
+[e = _num -U -> 1 `i ]
+"228
+[; ;Lokaverkefni.c: 228:             lcd_out(2,1, "                ");
+[e ( __delay (1 -> * -> -> 350 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"229
+[; ;Lokaverkefni.c: 229:             lcd_out(1,1, "Keyrir...");
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 12C ]
+"230
+[; ;Lokaverkefni.c: 230:             pallur = 0;
+[e $U 213  ]
+[e :U 214 ]
+{
+"231
+[; ;Lokaverkefni.c: 231:             _delay((unsigned long)((200)*(8000000/4000.0)));
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 13C ]
+"232
+[; ;Lokaverkefni.c: 232:             lcd_out(2,1, "Kassi:");
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 14C ]
+"233
+[; ;Lokaverkefni.c: 233:             do{
+[e = _num ( _KeyPad ..  ]
+"234
+[; ;Lokaverkefni.c: 234:                 if (scan == 1) {
+[e $ ! || <= _num -> 0 `i >= _num -> 4 `i 216  ]
+{
+"235
+[; ;Lokaverkefni.c: 235:                     interrupt_ms++;
+[e = _num -U -> 1 `i ]
+"236
+[; ;Lokaverkefni.c: 236:                 }
+[e ( __delay (1 -> * -> -> 500 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"237
+[; ;Lokaverkefni.c: 237:                 if (RB6 == 1) {
+}
+[e :U 216 ]
+"238
+[; ;Lokaverkefni.c: 238:                     scan = 1;
+[e $ ! && >= _num -> 1 `i <= _num -> 3 `i 217  ]
+{
+"239
+[; ;Lokaverkefni.c: 239:                     flicker1++;
+[e = _kubbur4 _num ]
+"240
+[; ;Lokaverkefni.c: 240:                     flickerA1++;
+[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"241
+[; ;Lokaverkefni.c: 241:                     if (DebounceA == 0 && flicker1 >= flickerspeed) {
+}
+[e :U 217 ]
+"242
+[; ;Lokaverkefni.c: 242:                         DebounceA = 1;
+}
+[e :U 213 ]
+"230
+[; ;Lokaverkefni.c: 230:             pallur = 0;
+[e $ == _num -U -> 1 `i 214  ]
+[e :U 215 ]
+"243
+[; ;Lokaverkefni.c: 243:                         segull++;
+[e ( _lcd_chr_cp (1 -> + _num -> 48 `i `uc ]
+"244
+[; ;Lokaverkefni.c: 244:                         flicker1 = 0;
+[e ( __delay (1 -> * -> -> 15 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"245
+[; ;Lokaverkefni.c: 245:                         flickerA1 = 0;
+[e = _num -U -> 1 `i ]
+"246
+[; ;Lokaverkefni.c: 246:                     }
+[e ( __delay (1 -> * -> -> 350 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"247
+[; ;Lokaverkefni.c: 247:                 }
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 15C ]
+"248
+[; ;Lokaverkefni.c: 248:                 else if (RB6 == 0 && flickerA1 >= flickerspeed) {
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 16C ]
+"249
+[; ;Lokaverkefni.c: 249:                     DebounceA = 0;
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"250
+[; ;Lokaverkefni.c: 250:                     flicker1 = 0;
+[e :UE 197 ]
+}
+"252
+[; ;Lokaverkefni.c: 252:                 }
+[v _A `(v ~T0 @X0 1 ef ]
+"253
+[; ;Lokaverkefni.c: 253:                 if (RB7 == 1) {
+{
+[e :U _A ]
+[f ]
+"254
+[; ;Lokaverkefni.c: 254:                     scan = 1;
+[e $ ! == _run -> 0 `i 219  ]
+{
+"256
+[; ;Lokaverkefni.c: 256:                     flickerA2++;
+[e = _segull -> 0 `i ]
+"257
+[; ;Lokaverkefni.c: 257:                     if (DebounceB == 0 && flicker2 >= flickerspeed) {
+[e = _teljari -> 0 `i ]
+"258
+[; ;Lokaverkefni.c: 258:                         DebounceB = 1;
+[e = _run -> 1 `i ]
+"259
+[; ;Lokaverkefni.c: 259:                         segull++;
+[e ( _Val ..  ]
+"260
+[; ;Lokaverkefni.c: 260:                         flicker2 = 0;
+}
+[e :U 219 ]
+"261
+[; ;Lokaverkefni.c: 261:                         flickerA2 = 0;
+[e ( __delay (1 -> * -> -> 350 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"262
+[; ;Lokaverkefni.c: 262:                     }
+[e $ ! == -> _RA7 `i -> 1 `i 220  ]
+{
+"263
+[; ;Lokaverkefni.c: 263:                 }
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 17C ]
+"264
+[; ;Lokaverkefni.c: 264:                 else if (RB7 == 0 && flickerA2 >= flickerspeed) {
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 2 `i `uc :s 18C ]
+"265
+[; ;Lokaverkefni.c: 265:                     DebounceB = 0;
+[e :U 223 ]
+{
+"266
+[; ;Lokaverkefni.c: 266:                     flicker2 = 0;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 19C ]
+"267
+[; ;Lokaverkefni.c: 267:                     flickerA2 = 0;
+}
+[e $ == -> _RA7 `i -> 1 `i 223  ]
+[e :U 222 ]
+"268
+[; ;Lokaverkefni.c: 268:                 }
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 20C ]
+"269
+[; ;Lokaverkefni.c: 269:             }while(RA0 != 1);
+}
+[e :U 220 ]
+"270
+[; ;Lokaverkefni.c: 270:             RC0 = 0;
+[e :U 226 ]
+{
+"271
+[; ;Lokaverkefni.c: 271:             do{
+[v _num `i ~T0 @X0 1 a ]
+[e = _num -U -> 1 `i ]
+"272
+[; ;Lokaverkefni.c: 272:                 if (scan == 1) {
+[e :U 229 ]
+{
+"273
+[; ;Lokaverkefni.c: 273:                     interrupt_ms++;
+[e = _num ( _KeyPad ..  ]
+"274
+[; ;Lokaverkefni.c: 274:                 }
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 21C ]
+"275
+[; ;Lokaverkefni.c: 275:                 if (RB6 == 1) {
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 22C ]
+"276
+[; ;Lokaverkefni.c: 276:                     scan = 1;
+}
+[e $ == _num -U -> 1 `i 229  ]
+[e :U 228 ]
+"277
+[; ;Lokaverkefni.c: 277:                     flicker1++;
+[e $ ! == _num -> 0 `i 230  ]
+{
+"278
+[; ;Lokaverkefni.c: 278:                     flickerA1++;
+[e = _run -> 0 `i ]
+"279
+[; ;Lokaverkefni.c: 279:                     if (DebounceA == 0 && flicker1 >= flickerspeed) {
+}
+[e $U 231  ]
+"280
+[; ;Lokaverkefni.c: 280:                         DebounceA = 1;
+[e :U 230 ]
+[e $ ! == _num -> 10 `i 232  ]
+{
+"281
+[; ;Lokaverkefni.c: 281:                         segull++;
+[e = _num -U -> 1 `i ]
+"282
+[; ;Lokaverkefni.c: 282:                         flicker1 = 0;
+[e $ ! == -> _RA7 `i -> 1 `i 233  ]
+{
+"283
+[; ;Lokaverkefni.c: 283:                         flickerA1 = 0;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 23C ]
+"284
+[; ;Lokaverkefni.c: 284:                     }
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 2 `i `uc :s 24C ]
+"285
+[; ;Lokaverkefni.c: 285:                 }
+[e :U 236 ]
+{
+"286
+[; ;Lokaverkefni.c: 286:                 else if (RB6 == 0 && flickerA1 >= flickerspeed) {
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 25C ]
+"287
+[; ;Lokaverkefni.c: 287:                     DebounceA = 0;
+}
+[e $ == -> _RA7 `i -> 1 `i 236  ]
+[e :U 235 ]
+"288
+[; ;Lokaverkefni.c: 288:                     flicker1 = 0;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 26C ]
+"289
+[; ;Lokaverkefni.c: 289:                     flickerA1 = 0;
+[e ( __delay (1 -> * -> -> 350 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"290
+[; ;Lokaverkefni.c: 290:                 }
+}
+[e :U 233 ]
+"291
+[; ;Lokaverkefni.c: 291:                 if (RB7 == 1) {
+[e = _RC0 -> -> 1 `i `b ]
+"292
+[; ;Lokaverkefni.c: 292:                     scan = 1;
+[e = _RC1 -> -> 1 `i `b ]
+"293
+[; ;Lokaverkefni.c: 293:                     flicker2++;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 27C ]
+"294
+[; ;Lokaverkefni.c: 294:                     flickerA2++;
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 28C ]
+"295
+[; ;Lokaverkefni.c: 295:                     if (DebounceB == 0 && flicker2 >= flickerspeed) {
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 29C ]
+"296
+[; ;Lokaverkefni.c: 296:                         DebounceB = 1;
+[e = _pallur -> 0 `i ]
+"297
+[; ;Lokaverkefni.c: 297:                         segull++;
+[e ( __delay (1 -> * -> -> 200 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"298
+[; ;Lokaverkefni.c: 298:                         flicker2 = 0;
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 30C ]
+"299
+[; ;Lokaverkefni.c: 299:                         flickerA2 = 0;
+[e :U 239 ]
+{
+"300
+[; ;Lokaverkefni.c: 300:                     }
+[e $ ! == _scan -> 1 `i 240  ]
+{
+"301
+[; ;Lokaverkefni.c: 301:                 }
+[e ++ _interrupt_ms -> 1 `i ]
+"302
+[; ;Lokaverkefni.c: 302:                 else if (RB7 == 0 && flickerA2 >= flickerspeed) {
+}
+[e :U 240 ]
+"303
+[; ;Lokaverkefni.c: 303:                     DebounceB = 0;
+[e $ ! == -> _RB6 `i -> 1 `i 241  ]
+{
+"304
+[; ;Lokaverkefni.c: 304:                     flicker2 = 0;
+[e = _scan -> 1 `i ]
+"305
+[; ;Lokaverkefni.c: 305:                     flickerA2 = 0;
+[e ++ _flicker1 -> 1 `i ]
+"306
+[; ;Lokaverkefni.c: 306:                 }
+[e ++ _flickerA1 -> 1 `i ]
+"307
+[; ;Lokaverkefni.c: 307:                 if (interrupt_ms >= flickermax || segull >= 4) {
+[e $ ! && == _DebounceA -> 0 `i >= _flicker1 _flickerspeed 242  ]
+{
+"308
+[; ;Lokaverkefni.c: 308:                     teljari = 1;
+[e = _DebounceA -> 1 `i ]
+"309
+[; ;Lokaverkefni.c: 309:                 }
+[e ++ _segull -> 1 `i ]
+"310
+[; ;Lokaverkefni.c: 310:             }while(teljari == 0);
+[e = _flicker1 -> 0 `i ]
+"311
+[; ;Lokaverkefni.c: 311:             lcd_chr(2,7, segull+48);
+[e = _flickerA1 -> 0 `i ]
+"312
+[; ;Lokaverkefni.c: 312:             lcd_out(1,1, "                ");
+}
+[e :U 242 ]
+"313
+[; ;Lokaverkefni.c: 313:             lcd_out(1,1, "Pallur:");
+}
+[e $U 243  ]
+"314
+[; ;Lokaverkefni.c: 314:             if(segull == 1){
+[e :U 241 ]
+[e $ ! && == -> _RB6 `i -> 0 `i >= _flickerA1 _flickerspeed 244  ]
+{
+"315
+[; ;Lokaverkefni.c: 315:                 pallur = kubbur1;
+[e = _DebounceA -> 0 `i ]
+"316
+[; ;Lokaverkefni.c: 316:             }
+[e = _flicker1 -> 0 `i ]
+"317
+[; ;Lokaverkefni.c: 317:             else if(segull == 2){
+[e = _flickerA1 -> 0 `i ]
+"318
+[; ;Lokaverkefni.c: 318:                 pallur = kubbur2;
+}
+[e :U 244 ]
+[e :U 243 ]
+"319
+[; ;Lokaverkefni.c: 319:             }
+[e $ ! == -> _RB7 `i -> 1 `i 245  ]
+{
+"320
+[; ;Lokaverkefni.c: 320:             else if(segull == 3){
+[e = _scan -> 1 `i ]
+"321
+[; ;Lokaverkefni.c: 321:                 pallur = kubbur3;
+[e ++ _flicker2 -> 1 `i ]
+"322
+[; ;Lokaverkefni.c: 322:             }
+[e ++ _flickerA2 -> 1 `i ]
+"323
+[; ;Lokaverkefni.c: 323:             else if(segull == 4){
+[e $ ! && == _DebounceB -> 0 `i >= _flicker2 _flickerspeed 246  ]
+{
+"324
+[; ;Lokaverkefni.c: 324:                 pallur = kubbur4;
+[e = _DebounceB -> 1 `i ]
+"325
+[; ;Lokaverkefni.c: 325:             }
+[e ++ _segull -> 1 `i ]
+"326
+[; ;Lokaverkefni.c: 326:             lcd_chr(1,8, pallur+48);
+[e = _flicker2 -> 0 `i ]
+"327
+[; ;Lokaverkefni.c: 327: 
+[e = _flickerA2 -> 0 `i ]
+"328
+[; ;Lokaverkefni.c: 328:             if(pallur == 1){
+}
+[e :U 246 ]
+"329
+[; ;Lokaverkefni.c: 329:                 do{
+}
+[e $U 247  ]
+"330
+[; ;Lokaverkefni.c: 330:                     RC1 = 1;
+[e :U 245 ]
+[e $ ! && == -> _RB7 `i -> 0 `i >= _flickerA2 _flickerspeed 248  ]
+{
+"331
+[; ;Lokaverkefni.c: 331:                 }while(RA5 == 0);
+[e = _DebounceB -> 0 `i ]
+"332
+[; ;Lokaverkefni.c: 332:                 if(RA5 == 1){
+[e = _flicker2 -> 0 `i ]
+"333
+[; ;Lokaverkefni.c: 333:                     RC1 = 0;
+[e = _flickerA2 -> 0 `i ]
+"334
+[; ;Lokaverkefni.c: 334:                     _delay((unsigned long)((100)*(8000000/4000.0)));
+}
+[e :U 248 ]
+[e :U 247 ]
+"335
+[; ;Lokaverkefni.c: 335:                 }
+}
+[e $ != -> _RA0 `i -> 1 `i 239  ]
+[e :U 238 ]
+"336
+[; ;Lokaverkefni.c: 336:                 if(RA5 == 1){
+[e = _RC0 -> -> 0 `i `b ]
+"337
+[; ;Lokaverkefni.c: 337:                     do{
+[e :U 251 ]
+{
+"338
+[; ;Lokaverkefni.c: 338:                         RC2 = 1;
+[e $ ! == _scan -> 1 `i 252  ]
+{
+"339
+[; ;Lokaverkefni.c: 339:                     }while(RA1 == 0);
+[e ++ _interrupt_ms -> 1 `i ]
+"340
+[; ;Lokaverkefni.c: 340:                     RC2 = 0;
+}
+[e :U 252 ]
+"341
+[; ;Lokaverkefni.c: 341:                     _delay((unsigned long)((150)*(8000000/4000.0)));
+[e $ ! == -> _RB6 `i -> 1 `i 253  ]
+{
+"342
+[; ;Lokaverkefni.c: 342:                 }
+[e = _scan -> 1 `i ]
+"343
+[; ;Lokaverkefni.c: 343:                 if(RA1 == 1){
+[e ++ _flicker1 -> 1 `i ]
+"344
+[; ;Lokaverkefni.c: 344:                     do{
+[e ++ _flickerA1 -> 1 `i ]
+"345
+[; ;Lokaverkefni.c: 345:                         RC3 = 1;
+[e $ ! && == _DebounceA -> 0 `i >= _flicker1 _flickerspeed 254  ]
+{
+"346
+[; ;Lokaverkefni.c: 346:                     }while(RA2 == 0);
+[e = _DebounceA -> 1 `i ]
+"347
+[; ;Lokaverkefni.c: 347:                     RC3 = 0;
+[e ++ _segull -> 1 `i ]
+"348
+[; ;Lokaverkefni.c: 348:                     _delay((unsigned long)((150)*(8000000/4000.0)));
+[e = _flicker1 -> 0 `i ]
+"349
+[; ;Lokaverkefni.c: 349:                     teljari = 0;
+[e = _flickerA1 -> 0 `i ]
+"350
+[; ;Lokaverkefni.c: 350:                     segull = 0;
+}
+[e :U 254 ]
+"351
+[; ;Lokaverkefni.c: 351:                     scan = 0;
+}
+[e $U 255  ]
+"352
+[; ;Lokaverkefni.c: 352:                     pallur = 0;
+[e :U 253 ]
+[e $ ! && == -> _RB6 `i -> 0 `i >= _flickerA1 _flickerspeed 256  ]
+{
+"353
+[; ;Lokaverkefni.c: 353:                     lcd_out(1,1, "                 ");
+[e = _DebounceA -> 0 `i ]
+"354
+[; ;Lokaverkefni.c: 354:                 }
+[e = _flicker1 -> 0 `i ]
+"355
+[; ;Lokaverkefni.c: 355:             }
+[e = _flickerA1 -> 0 `i ]
+"356
+[; ;Lokaverkefni.c: 356: 
+}
+[e :U 256 ]
+[e :U 255 ]
+"357
+[; ;Lokaverkefni.c: 357:             else if(pallur == 2){
+[e $ ! == -> _RB7 `i -> 1 `i 257  ]
+{
+"358
+[; ;Lokaverkefni.c: 358:                 do{
+[e = _scan -> 1 `i ]
+"359
+[; ;Lokaverkefni.c: 359:                     RC1 = 1;
+[e ++ _flicker2 -> 1 `i ]
+"360
+[; ;Lokaverkefni.c: 360:                 }while(RA6 == 0);
+[e ++ _flickerA2 -> 1 `i ]
+"361
+[; ;Lokaverkefni.c: 361: 
+[e $ ! && == _DebounceB -> 0 `i >= _flicker2 _flickerspeed 258  ]
+{
+"362
+[; ;Lokaverkefni.c: 362:                 if(RA6 == 1){
+[e = _DebounceB -> 1 `i ]
+"363
+[; ;Lokaverkefni.c: 363:                     RC1 = 0;
+[e ++ _segull -> 1 `i ]
+"364
+[; ;Lokaverkefni.c: 364:                     _delay((unsigned long)((100)*(8000000/4000.0)));
+[e = _flicker2 -> 0 `i ]
+"365
+[; ;Lokaverkefni.c: 365:                 }
+[e = _flickerA2 -> 0 `i ]
+"366
+[; ;Lokaverkefni.c: 366:                 if(RA6 == 1){
+}
+[e :U 258 ]
+"367
+[; ;Lokaverkefni.c: 367:                     do{
+}
+[e $U 259  ]
+"368
+[; ;Lokaverkefni.c: 368:                         RC4 = 1;
+[e :U 257 ]
+[e $ ! && == -> _RB7 `i -> 0 `i >= _flickerA2 _flickerspeed 260  ]
+{
+"369
+[; ;Lokaverkefni.c: 369:                     }while(RA3 == 0);
+[e = _DebounceB -> 0 `i ]
+"370
+[; ;Lokaverkefni.c: 370:                     RC4 = 0;
+[e = _flicker2 -> 0 `i ]
+"371
+[; ;Lokaverkefni.c: 371:                     _delay((unsigned long)((150)*(8000000/4000.0)));
+[e = _flickerA2 -> 0 `i ]
+"372
+[; ;Lokaverkefni.c: 372:                 }
+}
+[e :U 260 ]
+[e :U 259 ]
+"373
+[; ;Lokaverkefni.c: 373:                 if(RA3 == 1){
+[e $ ! || >= _interrupt_ms _flickermax >= _segull -> 4 `i 261  ]
+{
+"374
+[; ;Lokaverkefni.c: 374:                     do{
+[e = _teljari -> 1 `i ]
+"375
+[; ;Lokaverkefni.c: 375:                         RC5 = 1;
+}
+[e :U 261 ]
+"376
+[; ;Lokaverkefni.c: 376:                     }while(RA4 == 0);
+}
+[e $ == _teljari -> 0 `i 251  ]
+[e :U 250 ]
+"377
+[; ;Lokaverkefni.c: 377:                     RC5 = 0;
+[e ( _lcd_chr (3 , , -> -> 2 `i `uc -> -> 7 `i `uc -> + _segull -> 48 `i `uc ]
+"378
+[; ;Lokaverkefni.c: 378:                     _delay((unsigned long)((150)*(8000000/4000.0)));
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 31C ]
+"379
+[; ;Lokaverkefni.c: 379:                     teljari = 0;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 32C ]
+"380
+[; ;Lokaverkefni.c: 380:                     segull = 0;
+[e $ ! == _segull -> 1 `i 262  ]
+{
+"381
+[; ;Lokaverkefni.c: 381:                     scan = 0;
+[e = _pallur _kubbur1 ]
+"382
+[; ;Lokaverkefni.c: 382:                     pallur = 0;
+}
+[e $U 263  ]
+"383
+[; ;Lokaverkefni.c: 383:                     lcd_out(1,1, "                 ");
+[e :U 262 ]
+[e $ ! == _segull -> 2 `i 264  ]
+{
+"384
+[; ;Lokaverkefni.c: 384:                 }
+[e = _pallur _kubbur2 ]
+"385
+[; ;Lokaverkefni.c: 385: 
+}
+[e $U 265  ]
+"386
+[; ;Lokaverkefni.c: 386:             }
+[e :U 264 ]
+[e $ ! == _segull -> 3 `i 266  ]
+{
+"387
+[; ;Lokaverkefni.c: 387: 
+[e = _pallur _kubbur3 ]
+"388
+[; ;Lokaverkefni.c: 388:             if(pallur == 3){
+}
+[e $U 267  ]
+"389
+[; ;Lokaverkefni.c: 389:                 while(RE0 == 0){
+[e :U 266 ]
+[e $ ! == _segull -> 4 `i 268  ]
+{
+"390
+[; ;Lokaverkefni.c: 390:                     RC1 = 1;
+[e = _pallur _kubbur4 ]
+"391
+[; ;Lokaverkefni.c: 391:                 }
+}
+[e :U 268 ]
+[e :U 267 ]
+[e :U 265 ]
+[e :U 263 ]
+"392
+[; ;Lokaverkefni.c: 392:                 if(RE0 == 1){
+[e ( _lcd_chr (3 , , -> -> 1 `i `uc -> -> 8 `i `uc -> + _pallur -> 48 `i `uc ]
+"394
+[; ;Lokaverkefni.c: 394:                     lcd_out(1,1, "                ");
+[e $ ! == _pallur -> 1 `i 269  ]
+{
+"395
+[; ;Lokaverkefni.c: 395:                     lcd_out(2,1, "                ");
+[e :U 272 ]
+{
+"396
+[; ;Lokaverkefni.c: 396:                 }
+[e = _RC1 -> -> 1 `i `b ]
+"397
+[; ;Lokaverkefni.c: 397:                 do{
+}
+[e $ == -> _RA5 `i -> 0 `i 272  ]
+[e :U 271 ]
+"398
+[; ;Lokaverkefni.c: 398:                     lcd_out(1,1, "Vinsmalegast");
+[e $ ! == -> _RA5 `i -> 1 `i 273  ]
+{
+"399
+[; ;Lokaverkefni.c: 399:                     lcd_out(2,1, "Pall 3");
+[e = _RC1 -> -> 0 `i `b ]
+"400
+[; ;Lokaverkefni.c: 400:                 }while(RE0 == 1);
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"401
+[; ;Lokaverkefni.c: 401:                 _delay((unsigned long)((150)*(8000000/4000.0)));
+}
+[e :U 273 ]
+"402
+[; ;Lokaverkefni.c: 402:                 teljari = 0;
+[e $ ! == -> _RA5 `i -> 1 `i 274  ]
+{
+"403
+[; ;Lokaverkefni.c: 403:                 segull = 0;
+[e :U 277 ]
+{
+"404
+[; ;Lokaverkefni.c: 404:                 scan = 0;
+[e = _RC2 -> -> 1 `i `b ]
+"405
+[; ;Lokaverkefni.c: 405:                 pallur = 0;
+}
+[e $ == -> _RA1 `i -> 0 `i 277  ]
+[e :U 276 ]
+"406
+[; ;Lokaverkefni.c: 406:                 lcd_out(1,1, "                 ");
+[e = _RC2 -> -> 0 `i `b ]
+"407
+[; ;Lokaverkefni.c: 407:                 lcd_out(2,1, "                 ");
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"408
+[; ;Lokaverkefni.c: 408:             }
+}
+[e :U 274 ]
+"409
+[; ;Lokaverkefni.c: 409:         }
+[e $ ! == -> _RA1 `i -> 1 `i 278  ]
+{
+"410
+[; ;Lokaverkefni.c: 410:     }while(run == 1);
+[e :U 281 ]
+{
+"411
+[; ;Lokaverkefni.c: 411: }
+[e = _RC3 -> -> 1 `i `b ]
+"412
+[; ;Lokaverkefni.c: 412: 
+}
+[e $ == -> _RA2 `i -> 0 `i 281  ]
+[e :U 280 ]
+"413
+[; ;Lokaverkefni.c: 413: void B(void)
+[e = _RC3 -> -> 0 `i `b ]
+"414
+[; ;Lokaverkefni.c: 414: {
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"415
+[; ;Lokaverkefni.c: 415:     ManualRun = 1;
+[e = _teljari -> 0 `i ]
+"416
+[; ;Lokaverkefni.c: 416:     do{
+[e = _segull -> 0 `i ]
+"417
+[; ;Lokaverkefni.c: 417:         int num;
+[e = _scan -> 0 `i ]
+"418
+[; ;Lokaverkefni.c: 418:         num = KeyPad();
+[e = _pallur -> 0 `i ]
+"419
+[; ;Lokaverkefni.c: 419:         if(num == -1){
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 33C ]
+"420
+[; ;Lokaverkefni.c: 420:             lcd_out(1,1, "Allt er stopp   ");
+}
+[e :U 278 ]
+"421
+[; ;Lokaverkefni.c: 421:             lcd_out(2,1, "0 til ad stoppa ");
+}
+[e $U 282  ]
+"423
+[; ;Lokaverkefni.c: 423:         }
+[e :U 269 ]
+[e $ ! == _pallur -> 2 `i 283  ]
+{
+"424
+[; ;Lokaverkefni.c: 424:         else if(num == 1) {
+[e :U 286 ]
+{
+"425
+[; ;Lokaverkefni.c: 425:             lcd_out(1,1, "Matari          ");
+[e = _RC1 -> -> 1 `i `b ]
+"426
+[; ;Lokaverkefni.c: 426:             lcd_out(2,1, "Faeriband       ");
+}
+[e $ == -> _RA6 `i -> 0 `i 286  ]
+[e :U 285 ]
+"428
+[; ;Lokaverkefni.c: 428:         }
+[e $ ! == -> _RA6 `i -> 1 `i 287  ]
+{
+"429
+[; ;Lokaverkefni.c: 429:         else if(num == 2){
+[e = _RC1 -> -> 0 `i `b ]
+"430
+[; ;Lokaverkefni.c: 430:             lcd_out(1,1, "Flokkari        ");
+[e ( __delay (1 -> * -> -> 100 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"431
+[; ;Lokaverkefni.c: 431:             lcd_out(2,1, "Faeriband       ");
+}
+[e :U 287 ]
+"432
+[; ;Lokaverkefni.c: 432:             RC1 = 1;
+[e $ ! == -> _RA6 `i -> 1 `i 288  ]
+{
+"433
+[; ;Lokaverkefni.c: 433:         }
+[e :U 291 ]
+{
+"434
+[; ;Lokaverkefni.c: 434:         else if(num == 3){
+[e = _RC4 -> -> 1 `i `b ]
+"435
+[; ;Lokaverkefni.c: 435:             lcd_out(1,1, "yta 1 ut        ");
+}
+[e $ == -> _RA3 `i -> 0 `i 291  ]
+[e :U 290 ]
+"436
+[; ;Lokaverkefni.c: 436:             lcd_out(2,1, "                ");
+[e = _RC4 -> -> 0 `i `b ]
+"437
+[; ;Lokaverkefni.c: 437:             RC2 = 1;
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"438
+[; ;Lokaverkefni.c: 438:         }
+}
+[e :U 288 ]
+"439
+[; ;Lokaverkefni.c: 439:         else if(num == 4){
+[e $ ! == -> _RA3 `i -> 1 `i 292  ]
+{
+"440
+[; ;Lokaverkefni.c: 440:             lcd_out(1,1, "yta 1 heim      ");
+[e :U 295 ]
+{
+"441
+[; ;Lokaverkefni.c: 441:             lcd_out(2,1, "                ");
+[e = _RC5 -> -> 1 `i `b ]
+"442
+[; ;Lokaverkefni.c: 442:             RC3 = 1;
+}
+[e $ == -> _RA4 `i -> 0 `i 295  ]
+[e :U 294 ]
+"443
+[; ;Lokaverkefni.c: 443:         }
+[e = _RC5 -> -> 0 `i `b ]
+"444
+[; ;Lokaverkefni.c: 444:         else if(num == 5){
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"445
+[; ;Lokaverkefni.c: 445:             lcd_out(1,1, "yta 2 ut        ");
+[e = _teljari -> 0 `i ]
+"446
+[; ;Lokaverkefni.c: 446:             lcd_out(2,1, "                ");
+[e = _segull -> 0 `i ]
+"447
+[; ;Lokaverkefni.c: 447:             RC4 = 1;
+[e = _scan -> 0 `i ]
+"448
+[; ;Lokaverkefni.c: 448:         }
+[e = _pallur -> 0 `i ]
+"449
+[; ;Lokaverkefni.c: 449:         else if(num == 6){
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 34C ]
+"450
+[; ;Lokaverkefni.c: 450:             lcd_out(1,1, "yta 2 heim      ");
+}
+[e :U 292 ]
+"452
+[; ;Lokaverkefni.c: 452:             RC5 = 1;
+}
+[e :U 283 ]
+[e :U 282 ]
+"454
+[; ;Lokaverkefni.c: 454:         else if(num == 0){
+[e $ ! == _pallur -> 3 `i 296  ]
+{
+"455
+[; ;Lokaverkefni.c: 455:             lcd_out(1,1, "Manual          ");
+[e $U 297  ]
+[e :U 298 ]
+{
+"456
+[; ;Lokaverkefni.c: 456:             lcd_out(2,1, "Haetta           ");
+[e = _RC1 -> -> 1 `i `b ]
+"457
+[; ;Lokaverkefni.c: 457:             _delay((unsigned long)((350)*(8000000/4000.0)));
+}
+[e :U 297 ]
+"455
+[; ;Lokaverkefni.c: 455:             lcd_out(1,1, "Manual          ");
+[e $ == -> _RE0 `i -> 0 `i 298  ]
+[e :U 299 ]
+"458
+[; ;Lokaverkefni.c: 458:             ManualRun = 0;
+[e $ ! == -> _RE0 `i -> 1 `i 300  ]
+{
+"459
+[; ;Lokaverkefni.c: 459:             reset();
+[e = _RC1 -> -> 0 `i `b ]
+"460
+[; ;Lokaverkefni.c: 460:             _delay((unsigned long)((150)*(8000000/4000.0)));
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 35C ]
+"461
+[; ;Lokaverkefni.c: 461:         }
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 36C ]
+"462
+[; ;Lokaverkefni.c: 462:     }while(ManualRun == 1);
+}
+[e :U 300 ]
+"463
+[; ;Lokaverkefni.c: 463: }
+[e :U 303 ]
+{
+"464
+[; ;Lokaverkefni.c: 464: 
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 37C ]
+"465
+[; ;Lokaverkefni.c: 465: void main()
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 38C ]
+"466
+[; ;Lokaverkefni.c: 466: {
+}
+[e $ == -> _RE0 `i -> 1 `i 303  ]
+[e :U 302 ]
+"467
+[; ;Lokaverkefni.c: 467: 
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"468
+[; ;Lokaverkefni.c: 468:  OSCCON = 0x75;
+[e = _teljari -> 0 `i ]
+"469
+[; ;Lokaverkefni.c: 469:  ANSEL = 0x00;
+[e = _segull -> 0 `i ]
+"470
+[; ;Lokaverkefni.c: 470:  ANSELH = 0x00;
+[e = _scan -> 0 `i ]
+"471
+[; ;Lokaverkefni.c: 471:  CM1CON0 = CM1CON0 & 0x7F;
+[e = _pallur -> 0 `i ]
+"472
+[; ;Lokaverkefni.c: 472:  CM2CON0 = CM2CON0 & 0x7F;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 39C ]
+"473
+[; ;Lokaverkefni.c: 473:  INTCON = 0x00;
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 40C ]
+"474
+[; ;Lokaverkefni.c: 474: 
+}
+[e :U 296 ]
+"475
+[; ;Lokaverkefni.c: 475:     RBIF = 0;
+}
+[e :U 232 ]
+[e :U 231 ]
+"476
+[; ;Lokaverkefni.c: 476:     RBIE = 1;
+}
+[e $ == _run -> 1 `i 226  ]
+[e :U 225 ]
+"477
+[; ;Lokaverkefni.c: 477:     IOCB6 = 1;
+[e :UE 218 ]
+}
+"479
+[; ;Lokaverkefni.c: 479: 
+[v _B `(v ~T0 @X0 1 ef ]
+"480
+[; ;Lokaverkefni.c: 480:     PEIE = 1;
+{
+[e :U _B ]
+[f ]
+"481
+[; ;Lokaverkefni.c: 481:     RCIE = 1;
+[e = _ManualRun -> 1 `i ]
+"482
+[; ;Lokaverkefni.c: 482:     (INTCONbits.GIE = 1);
+[e :U 307 ]
+{
+"483
+[; ;Lokaverkefni.c: 483: 
+[v _num `i ~T0 @X0 1 a ]
+"484
+[; ;Lokaverkefni.c: 484:  PORTA = 0x00;
+[e = _num ( _KeyPad ..  ]
+"485
+[; ;Lokaverkefni.c: 485:  PORTB = 0x00;
+[e $ ! == _num -U -> 1 `i 308  ]
+{
+"486
+[; ;Lokaverkefni.c: 486:  PORTC = 0x00;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 41C ]
+"487
+[; ;Lokaverkefni.c: 487:  PORTD = 0x00;
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 42C ]
+"488
+[; ;Lokaverkefni.c: 488:  PORTE = 0x00;
+[e = _PORTC -> -> 0 `i `uc ]
+"489
+[; ;Lokaverkefni.c: 489: 
+}
+[e $U 309  ]
+"490
+[; ;Lokaverkefni.c: 490:  TRISA = 0xFF;
+[e :U 308 ]
+[e $ ! == _num -> 1 `i 310  ]
+{
+"491
+[; ;Lokaverkefni.c: 491:  TRISB = 0xC0;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 43C ]
+"492
+[; ;Lokaverkefni.c: 492:  TRISC = 0x00;
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 44C ]
+"493
+[; ;Lokaverkefni.c: 493:  TRISD = 0xF0;
+[e = _RC0 -> -> 1 `i `b ]
+"494
+[; ;Lokaverkefni.c: 494:  TRISE = 0x01;
+}
+[e $U 311  ]
+"495
+[; ;Lokaverkefni.c: 495: 
+[e :U 310 ]
+[e $ ! == _num -> 2 `i 312  ]
+{
+"496
+[; ;Lokaverkefni.c: 496:  lcd_init();
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 45C ]
+"497
+[; ;Lokaverkefni.c: 497: 
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 46C ]
+"498
+[; ;Lokaverkefni.c: 498:     reset();
+[e = _RC1 -> -> 1 `i `b ]
+"499
+[; ;Lokaverkefni.c: 499: 
+}
+[e $U 313  ]
+"500
+[; ;Lokaverkefni.c: 500:     while(1){
+[e :U 312 ]
+[e $ ! == _num -> 3 `i 314  ]
+{
+"501
+[; ;Lokaverkefni.c: 501:         int num;
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 47C ]
+"502
+[; ;Lokaverkefni.c: 502:         PORTA = 0x00;
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 48C ]
+"503
+[; ;Lokaverkefni.c: 503:         num = KeyPad();
+[e = _RC2 -> -> 1 `i `b ]
+"504
+[; ;Lokaverkefni.c: 504:         if(num == -1){
+}
+[e $U 315  ]
+"505
+[; ;Lokaverkefni.c: 505:             lcd_out(1,1,"A: Auto          ");
+[e :U 314 ]
+[e $ ! == _num -> 4 `i 316  ]
+{
+"506
+[; ;Lokaverkefni.c: 506:             lcd_out(2,1,"B: Manual        ");
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 49C ]
+"507
+[; ;Lokaverkefni.c: 507:             PORTC = 0;
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 50C ]
+"508
+[; ;Lokaverkefni.c: 508:             _delay((unsigned long)((250)*(8000000/4000.0)));
+[e = _RC3 -> -> 1 `i `b ]
+"509
+[; ;Lokaverkefni.c: 509:         }
+}
+[e $U 317  ]
+"510
+[; ;Lokaverkefni.c: 510:         if(num == 10){
+[e :U 316 ]
+[e $ ! == _num -> 5 `i 318  ]
+{
+"511
+[; ;Lokaverkefni.c: 511:             lcd_out(1,1, "                ");
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 51C ]
+"512
+[; ;Lokaverkefni.c: 512:             lcd_out(2,1, "                ");
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 52C ]
+"513
+[; ;Lokaverkefni.c: 513:             A();
+[e = _RC4 -> -> 1 `i `b ]
+"514
+[; ;Lokaverkefni.c: 514:             _delay((unsigned long)((250)*(8000000/4000.0)));
+}
+[e $U 319  ]
+"515
+[; ;Lokaverkefni.c: 515:         }
+[e :U 318 ]
+[e $ ! == _num -> 6 `i 320  ]
+{
+"516
+[; ;Lokaverkefni.c: 516:         else if(num == 11){
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 53C ]
+"517
+[; ;Lokaverkefni.c: 517:             lcd_out(1,1, "                ");
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 54C ]
+"518
+[; ;Lokaverkefni.c: 518:             lcd_out(2,1, "                ");
+[e = _RC5 -> -> 1 `i `b ]
+"519
+[; ;Lokaverkefni.c: 519:             B();
+}
+[e $U 321  ]
+"520
+[; ;Lokaverkefni.c: 520:             _delay((unsigned long)((250)*(8000000/4000.0)));
+[e :U 320 ]
+[e $ ! == _num -> 0 `i 322  ]
+{
+"521
+[; ;Lokaverkefni.c: 521:         }
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 55C ]
+"522
+[; ;Lokaverkefni.c: 522:        if(num != -1 && num != 10 && num != 11 && num != 13){
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 56C ]
+"523
+[; ;Lokaverkefni.c: 523:             lcd_out(1,1, "Villa           ");
+[e ( __delay (1 -> * -> -> 350 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"524
+[; ;Lokaverkefni.c: 524:             lcd_out(2,1, "Velja A eda B   ");
+[e = _ManualRun -> 0 `i ]
+"525
+[; ;Lokaverkefni.c: 525:             _delay((unsigned long)((1000)*(8000000/4000.0)));
+[e ( _reset ..  ]
+"526
+[; ;Lokaverkefni.c: 526:         }
+[e ( __delay (1 -> * -> -> 150 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"527
+[; ;Lokaverkefni.c: 527:     }
+}
+[e :U 322 ]
+[e :U 321 ]
+[e :U 319 ]
+[e :U 317 ]
+[e :U 315 ]
+[e :U 313 ]
+[e :U 311 ]
+[e :U 309 ]
+"528
+[; ;Lokaverkefni.c: 528: }
+}
+[e $ == _ManualRun -> 1 `i 307  ]
+[e :U 306 ]
+"529
+[e :UE 304 ]
+}
+[v $root$_main `(v ~T0 @X0 0 e ]
+"531
+[v _main `(v ~T0 @X0 1 ef ]
+"532
+{
+[e :U _main ]
+[f ]
+"534
+[e = _OSCCON -> -> 117 `i `uc ]
+"535
+[e = _ANSEL -> -> 0 `i `uc ]
+"536
+[e = _ANSELH -> -> 0 `i `uc ]
+"537
+[e = _CM1CON0 -> & -> _CM1CON0 `i -> 127 `i `uc ]
+"538
+[e = _CM2CON0 -> & -> _CM2CON0 `i -> 127 `i `uc ]
+"539
+[e = _INTCON -> -> 0 `i `uc ]
+"541
+[e = _RBIF -> -> 0 `i `b ]
+"542
+[e = _RBIE -> -> 1 `i `b ]
+"543
+[e = _IOCB6 -> -> 1 `i `b ]
+"544
+[e = _IOCB7 -> -> 1 `i `b ]
+"546
+[e = _PEIE -> -> 1 `i `b ]
+"547
+[e = _RCIE -> -> 1 `i `b ]
+"548
+[e = . . _INTCONbits 0 7 -> -> 1 `i `uc ]
+"550
+[e = _PORTA -> -> 0 `i `uc ]
+"551
+[e = _PORTB -> -> 0 `i `uc ]
+"552
+[e = _PORTC -> -> 0 `i `uc ]
+"553
+[e = _PORTD -> -> 0 `i `uc ]
+"554
+[e = _PORTE -> -> 0 `i `uc ]
+"556
+[e = _TRISA -> -> 255 `i `uc ]
+"557
+[e = _TRISB -> -> 192 `i `uc ]
+"558
+[e = _TRISC -> -> 0 `i `uc ]
+"559
+[e = _TRISD -> -> 240 `i `uc ]
+"560
+[e = _TRISE -> -> 1 `i `uc ]
+"562
+[e ( _lcd_init ..  ]
+"564
+[e ( _reset ..  ]
+"566
+[e :U 325 ]
+{
+"567
+[v _num `i ~T0 @X0 1 a ]
+"568
+[e = _PORTA -> -> 0 `i `uc ]
+"569
+[e = _num ( _KeyPad ..  ]
+"570
+[e $ ! == _num -U -> 1 `i 327  ]
+{
+"571
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 57C ]
+"572
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 58C ]
+"573
+[e = _PORTC -> -> 0 `i `uc ]
+"574
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"575
+}
+[e :U 327 ]
+"576
+[e $ ! == _num -> 10 `i 328  ]
+{
+"577
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 59C ]
+"578
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 60C ]
+"579
+[e ( _A ..  ]
+"580
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"581
+}
+[e $U 329  ]
+"582
+[e :U 328 ]
+[e $ ! == _num -> 11 `i 330  ]
+{
+"583
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 61C ]
+"584
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 62C ]
+"585
+[e ( _B ..  ]
+"586
+[e ( __delay (1 -> * -> -> 250 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"587
+}
+[e :U 330 ]
+[e :U 329 ]
+"588
+[e $ ! && && && != _num -U -> 1 `i != _num -> 10 `i != _num -> 11 `i != _num -> 13 `i 331  ]
+{
+"589
+[e ( _lcd_out (3 , , -> -> 1 `i `uc -> -> 1 `i `uc :s 63C ]
+"590
+[e ( _lcd_out (3 , , -> -> 2 `i `uc -> -> 1 `i `uc :s 64C ]
+"591
+[e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
+"592
+}
+[e :U 331 ]
+"593
+}
+[e :U 324 ]
+[e $U 325  ]
+[e :U 326 ]
+"594
+[e :UE 323 ]
+}
+[a 37C 86 105 110 115 109 97 108 101 103 97 115 116 0 ]
+[a 1C 82 101 115 101 116 105 110 103 0 ]
+[a 19C 86 97 110 116 97 114 32 107 117 98 98 0 ]
+[a 25C 86 97 110 116 97 114 32 107 117 98 98 0 ]
+[a 22C 48 32 116 105 108 32 97 100 32 104 97 101 116 116 97 0 ]
+[a 21C 65 32 116 105 108 32 97 100 32 98 121 114 106 97 0 ]
+[a 32C 80 97 108 108 117 114 58 0 ]
+[a 30C 75 97 115 115 105 58 0 ]
+[a 14C 75 97 115 115 105 32 52 58 0 ]
+[a 11C 75 97 115 115 105 32 51 58 0 ]
+[a 8C 75 97 115 115 105 32 50 58 0 ]
+[a 5C 75 97 115 115 105 32 49 58 0 ]
+[a 38C 80 97 108 108 32 51 0 ]
+[a 4C 86 101 108 106 97 32 49 44 50 32 101 100 97 32 51 0 ]
+[a 7C 86 101 108 106 97 32 49 44 50 32 101 100 97 32 51 0 ]
+[a 10C 86 101 108 106 97 32 49 44 50 32 101 100 97 32 51 0 ]
+[a 13C 86 101 108 106 97 32 49 44 50 32 101 100 97 32 51 0 ]
+[a 29C 75 101 121 114 105 114 46 46 46 0 ]
+[a 42C 48 32 116 105 108 32 97 100 32 115 116 111 112 112 97 32 0 ]
+[a 41C 65 108 108 116 32 101 114 32 115 116 111 112 112 32 32 32 0 ]
+[a 64C 86 101 108 106 97 32 65 32 101 100 97 32 66 32 32 32 0 ]
+[a 53C 121 116 97 32 50 32 104 101 105 109 32 32 32 32 32 32 0 ]
+[a 49C 121 116 97 32 49 32 104 101 105 109 32 32 32 32 32 32 0 ]
+[a 44C 70 97 101 114 105 98 97 110 100 32 32 32 32 32 32 32 0 ]
+[a 46C 70 97 101 114 105 98 97 110 100 32 32 32 32 32 32 32 0 ]
+[a 51C 121 116 97 32 50 32 117 116 32 32 32 32 32 32 32 32 0 ]
+[a 47C 121 116 97 32 49 32 117 116 32 32 32 32 32 32 32 32 0 ]
+[a 58C 66 58 32 77 97 110 117 97 108 32 32 32 32 32 32 32 32 0 ]
+[a 45C 70 108 111 107 107 97 114 105 32 32 32 32 32 32 32 32 0 ]
+[a 57C 65 58 32 65 117 116 111 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 55C 77 97 110 117 97 108 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 43C 77 97 116 97 114 105 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 56C 72 97 101 116 116 97 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 63C 86 105 108 108 97 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 33C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 34C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 39C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 40C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 2C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 3C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 6C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 9C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 12C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 15C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 16C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 17C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 18C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 20C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 23C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 24C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 26C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 27C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 28C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 31C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 35C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 36C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 48C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 50C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 52C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 54C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 59C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 60C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 61C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
+[a 62C 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 32 0 ]
